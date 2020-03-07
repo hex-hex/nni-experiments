@@ -1,14 +1,17 @@
 """A deep MNIST classifier using convolutional layers."""
+
 import argparse
 import logging
 import math
 import tempfile
 import time
+
 import tensorflow.compat.v1 as tf
 from intro_samples import input_data
 
-tf.disable_v2_behavior()
+import nni
 
+tf.disable_v2_behavior()
 FLAGS = None
 
 logger = logging.getLogger('mnist_AutoML')
@@ -37,10 +40,8 @@ class MnistNetwork(object):
         self.x_dim = x_dim
         self.y_dim = y_dim
 
-        self.images = tf.placeholder(
-            tf.float32, [None, self.x_dim], name='input_x')
-        self.labels = tf.placeholder(
-            tf.float32, [None, self.y_dim], name='input_y')
+        self.images = tf.placeholder(tf.float32, [None, self.x_dim], name='input_x')
+        self.labels = tf.placeholder(tf.float32, [None, self.y_dim], name='input_y')
         self.keep_prob = tf.placeholder(tf.float32, name='keep_prob')
 
         self.train_step = None
@@ -183,10 +184,7 @@ def main(params):
     train_writer.add_graph(tf.get_default_graph())
 
     test_acc = 0.0
-    config = tf.ConfigProto()
-    config.gpu_options.allow_growth = True
-    config.gpu_options.per_process_gpu_memory_fraction = 0.4
-    with tf.Session(config=config) as sess:
+    with tf.Session() as sess:
         sess.run(tf.global_variables_initializer())
         for i in range(params['batch_num']):
             batch = mnist.train.next_batch(params['batch_size'])
@@ -201,6 +199,7 @@ def main(params):
                                mnist_network.labels: mnist.test.labels,
                                mnist_network.keep_prob: 1.0})
 
+                nni.report_intermediate_result(test_acc)
                 logger.debug('test accuracy %g', test_acc)
                 logger.debug('Pipe send intermediate result done.')
 
@@ -209,6 +208,7 @@ def main(params):
                        mnist_network.labels: mnist.test.labels,
                        mnist_network.keep_prob: 1.0})
 
+        nni.report_final_result(test_acc)
         logger.debug('Final result is %g', test_acc)
         logger.debug('Send final result done.')
 
@@ -233,7 +233,11 @@ def get_params():
 
 if __name__ == '__main__':
     try:
+        # get parameters form tuner
+        tuner_params = nni.get_next_parameter()
+        logger.debug(tuner_params)
         params = vars(get_params())
+        params.update(tuner_params)
         main(params)
     except Exception as exception:
         logger.exception(exception)
