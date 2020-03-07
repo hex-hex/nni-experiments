@@ -9,11 +9,11 @@ import os
 import tempfile
 import time
 import urllib
-
-from six.moves import xrange  # pylint: disable=redefined-builtin
 import numpy
 
 import tensorflow.compat.v1 as tf
+
+from six.moves import xrange  # pylint: disable=redefined-builtin
 from tensorflow.python.util.deprecation import deprecated
 from tensorflow.python.framework import dtypes
 from tensorflow.python.framework import random_seed
