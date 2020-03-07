@@ -13,4 +13,6 @@ tuner:
 trial:
   command: python mnist.py
   codeDir: .
-  gpuNum: 0
+  gpuNum: 1
+localConfig:
+  useActiveGpu: true
