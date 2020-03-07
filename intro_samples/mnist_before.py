@@ -4,6 +4,7 @@ import logging
 import math
 import tempfile
 import time
+
 import tensorflow.compat.v1 as tf
 from intro_samples import input_data
 

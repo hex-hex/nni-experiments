@@ -12,6 +12,7 @@ from intro_samples import input_data
 import nni
 
 tf.disable_v2_behavior()
+
 FLAGS = None
 
 logger = logging.getLogger('mnist_AutoML')
@@ -40,8 +41,10 @@ class MnistNetwork(object):
         self.x_dim = x_dim
         self.y_dim = y_dim
 
-        self.images = tf.placeholder(tf.float32, [None, self.x_dim], name='input_x')
-        self.labels = tf.placeholder(tf.float32, [None, self.y_dim], name='input_y')
+        self.images = tf.placeholder(
+            tf.float32, [None, self.x_dim], name='input_x')
+        self.labels = tf.placeholder(
+            tf.float32, [None, self.y_dim], name='input_y')
         self.keep_prob = tf.placeholder(tf.float32, name='keep_prob')
 
         self.train_step = None
@@ -184,7 +187,10 @@ def main(params):
     train_writer.add_graph(tf.get_default_graph())
 
     test_acc = 0.0
-    with tf.Session() as sess:
+    config = tf.ConfigProto()
+    config.gpu_options.allow_growth = True
+    config.gpu_options.per_process_gpu_memory_fraction = 0.8
+    with tf.Session(config=config) as sess:
         sess.run(tf.global_variables_initializer())
         for i in range(params['batch_num']):
             batch = mnist.train.next_batch(params['batch_size'])
