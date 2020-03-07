@@ -185,7 +185,7 @@ def main(params):
     test_acc = 0.0
     config = tf.ConfigProto()
     config.gpu_options.allow_growth = True
-    config.gpu_options.per_process_gpu_memory_fraction = 0.4
+    config.gpu_options.per_process_gpu_memory_fraction = 0.8
     with tf.Session(config=config) as sess:
         sess.run(tf.global_variables_initializer())
         for i in range(params['batch_num']):
