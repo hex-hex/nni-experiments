@@ -3,7 +3,7 @@ from keras.regularizers import l2
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 
-from model_0 import get_data_set
+from model_1 import get_data_set
 
 random_seed = 2020
 if __name__ == '__main__':
