@@ -2,7 +2,7 @@ authorName: default
 experimentName: example_mnist
 trialConcurrency: 1
 maxExecDuration: 1h
-maxTrialNum: 10
+maxTrialNum: 30
 trainingServicePlatform: local
 # The path to Search Space
 searchSpacePath: search_space.json
@@ -13,4 +13,6 @@ tuner:
 trial:
   command: python mnist.py
   codeDir: .
-  gpuNum: 0
+  gpuNum: 1
+localConfig:
+  useActiveGpu: true
