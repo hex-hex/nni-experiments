@@ -42,4 +42,5 @@ if __name__ == '__main__':
     prod = keras.layers.dot([movie_vec, user_vec], axes=1, normalize=True, name='DotProduct')
     model = keras.Model([user_input, movie_input], prod)
     model.compile(optimizer='adam', loss='mean_squared_error', metrics=['mae', 'mse'])
+
     history = model.fit([train.user_id, train.item_id], train.rating, epochs=5, verbose=2)
