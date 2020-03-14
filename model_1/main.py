@@ -2,13 +2,21 @@ import argparse
 import random
 import time
 
+import keras
 import pandas as pd
 import numpy as np
 
 import nni
-import scipy
+import tensorflow as tf
+from keras.initializers import RandomUniform, he_uniform
+from keras.regularizers import l2
 from scipy.sparse import coo_matrix
 from sklearn.model_selection import train_test_split
+
+model_name = 'model1'
+seed = 2020
+embedding_init = RandomUniform(seed=seed)
+relu_init = he_uniform(seed=seed)
 
 
 def neg_sampling(ratings_df, n_neg=1, neg_val=0, pos_val=1, percent_print=5):
@@ -60,6 +68,32 @@ def neg_sampling(ratings_df, n_neg=1, neg_val=0, pos_val=1, percent_print=5):
     nsamples = nsamples.append(pd.DataFrame(nTempData, columns=["user_id", "item_id", "rating"]), ignore_index=True)
     nsamples.reset_index(drop=True)
     return nsamples
+
+
+def create_model(dataset, n_latent_factors=16, learning_rate=0.1, regu=1e-6):
+    n_users, n_movies = len(dataset.user_id.unique()), len(dataset.item_id.unique())
+
+    movie_input = keras.layers.Input(shape=[1], name='Item')
+    movie_embedding = keras.layers.Embedding(n_movies, n_latent_factors,
+                                             embeddings_initializer=embedding_init,
+                                             embeddings_regularizer=l2(regu),
+                                             embeddings_constraint="NonNeg",
+                                             name='Movie-Embedding')(movie_input)
+    movie_vec = keras.layers.Flatten(name='FlattenMovies')(movie_embedding)
+
+    user_input = keras.layers.Input(shape=[1], name='User')
+    user_embedding = keras.layers.Embedding(n_users, n_latent_factors,
+                                            embeddings_initializer=embedding_init,
+                                            embeddings_regularizer=l2(regu),
+                                            embeddings_constraint="NonNeg",
+                                            name='User-Embedding')(user_input)
+    user_vec = keras.layers.Flatten(name='FlattenUsers')(user_embedding)
+
+    prod = keras.layers.dot([movie_vec, user_vec], axes=1, normalize=True, name='DotProduct')
+    model = keras.Model([user_input, movie_input], prod)
+    sgd = tf.keras.optimizers.SGD(learning_rate)  # ?
+    model.compile(optimizer='sgd', loss='binary_crossentropy', metrics=['binary_accuracy'])
+    return model
 
 
 dataset = pd.read_csv('../source_data/ml-latest-small/ratings.csv', usecols=[0, 1, 2, 3],
