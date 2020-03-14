@@ -13,7 +13,7 @@ data_sets = {
 }
 
 
-def download_data(data_path: str = './source_data/'):
+def download_data(data_path: str = '../source_data/'):
     for k, v in data_sets.items():
         dt_name = os.path.basename(v)
         dt_path = '{}{}'.format(data_path, dt_name)
