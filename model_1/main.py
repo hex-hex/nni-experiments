@@ -7,12 +7,8 @@ import numpy as np
 
 import nni
 import scipy
-
-dataset = pd.read_csv('../source_data/ml-latest-small/ratings.csv', usecols=[0, 1, 2, 3],
-                      names=['user_id', 'item_id', 'rating', 'timestamp'])
-
-dataset.user_id = dataset.user_id.astype('category').cat.codes.values
-dataset.item_id = dataset.item_id.astype('category').cat.codes.values
+from scipy.sparse import coo_matrix
+from sklearn.model_selection import train_test_split
 
 
 def neg_sampling(ratings_df, n_neg=1, neg_val=0, pos_val=1, percent_print=5):
@@ -26,12 +22,12 @@ def neg_sampling(ratings_df, n_neg=1, neg_val=0, pos_val=1, percent_print=5):
       negative sampled set as pandas dataframe
               userId|movieId|interact (implicit)
     """
-    sparse_mat = scipy.sparse.coo_matrix((ratings_df.rating, (ratings_df.user_id, ratings_df.item_id)))
+    sparse_mat = coo_matrix((ratings_df.rating, (ratings_df.user_id, ratings_df.item_id)), dtype=np.float64)
     dense_mat = np.asarray(sparse_mat.todense())
     print(dense_mat.shape)
 
     nsamples = ratings_df[['user_id', 'item_id']]
-    nsamples['rating'] = nsamples.apply(lambda row: 1, axis=1)
+    nsamples.loc['rating'] = nsamples.apply(lambda row: 1, axis=1)
     length = dense_mat.shape[0]
     printpc = int(length * percent_print / 100)
 
@@ -66,9 +62,22 @@ def neg_sampling(ratings_df, n_neg=1, neg_val=0, pos_val=1, percent_print=5):
     return nsamples
 
 
+dataset = pd.read_csv('../source_data/ml-latest-small/ratings.csv', usecols=[0, 1, 2, 3],
+                      names=['user_id', 'item_id', 'rating', 'timestamp'])
+
+dataset.user_id = dataset.user_id.astype('category').cat.codes.values
+dataset.item_id = dataset.item_id.astype('category').cat.codes.values
+dataset.rating = pd.to_numeric(dataset.rating, errors='coerce')
+
+neg_dataset = neg_sampling(dataset)
+
+train, test = train_test_split(neg_dataset, test_size=0.2, random_state=2020)
+train, val = train_test_split(train, test_size=0.2, random_state=2020)
+
+
 def main(param):
     print(param)
-    print(dataset)
+    print(train)
 
 
 def get_params():
