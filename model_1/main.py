@@ -1,3 +1,6 @@
+import argparse
+
+import nni
 from tensorflow import keras
 from keras.initializers import RandomUniform, he_uniform
 from keras.regularizers import l2
@@ -7,7 +10,10 @@ from sklearn.preprocessing import MinMaxScaler
 from model_1 import get_data_set
 
 random_seed = 2020
-if __name__ == '__main__':
+
+
+def main(param):
+    print(param)
     data_set = get_data_set('ml100k')
     rating_scaler = MinMaxScaler()
     data_set['rating'] = rating_scaler.fit_transform(data_set['rating'].to_numpy().reshape(-1, 1))
@@ -16,16 +22,11 @@ if __name__ == '__main__':
     train, test = train_test_split(data_set, test_size=0.2, random_state=random_seed)
     train, val = train_test_split(train, test_size=0.2, random_state=random_seed)
 
-    model_name = 'model1'
     embedding_init = RandomUniform(seed=random_seed)
-    relu_init = he_uniform(seed=random_seed)
-    embeddings_regu = l2(1e-6)
+    embeddings_regu = l2(param['regularizer'])
 
     n_users, n_movies = len(data_set.user_id.unique()), len(data_set.item_id.unique())
-    n_latent_factors = 16
-    a = keras.layers.Input(shape=(1,))
-    b = keras.layers.Dense(32)(a)
-    model = keras.Model(inputs=a, outputs=b)
+    n_latent_factors = param['hidden_factors']
     movie_input = keras.layers.Input(shape=[1], name='Item')
     movie_embedding = keras.layers.Embedding(n_movies, n_latent_factors,
                                              embeddings_initializer=embedding_init,
@@ -44,3 +45,20 @@ if __name__ == '__main__':
     model.compile(optimizer='adam', loss='mean_squared_error', metrics=['mae', 'mse'])
 
     history = model.fit([train.user_id, train.item_id], train.rating, epochs=5, verbose=2)
+
+
+def get_params():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--hidden_factors", type=int, default=8)
+    parser.add_argument("--batch", type=int, default=128)
+    parser.add_argument("--regularizer", type=float, default=1e-4)
+    parser.add_argument("--lr", type=float, default=1e-4)
+    args, _ = parser.parse_known_args()
+    return args
+
+
+if __name__ == '__main__':
+    tuner_params = nni.get_next_parameter()
+    params = vars(get_params())
+    params.update(tuner_params)
+    main(params)
