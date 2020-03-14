@@ -37,20 +37,20 @@ def neg_sampling(ratings_df, n_neg=1, neg_val=0, pos_val=1, percent_print=5):
 
     nTempData = []
     i = 0
-    start_time = time.time()
-    stop_time = time.time()
+    # start_time = time.time()
+    # stop_time = time.time()
 
     extra_samples = 0
     for row in dense_mat:
         if i % printpc == 0:
             stop_time = time.time()
-            print("processed ... {0:0.2f}% ...{1:0.2f}secs".format(float(i) * 100 / length, stop_time - start_time))
+            # print("processed ... {0:0.2f}% ...{1:0.2f}secs".format(float(i) * 100 / length, stop_time - start_time))
             start_time = stop_time
 
         n_non_0 = len(np.nonzero(row)[0])
         zero_indices = np.where(row == 0)[0]
         if n_non_0 * n_neg + extra_samples > len(zero_indices):
-            print(i, "non 0:", n_non_0, ": len ", len(zero_indices))
+            # print(i, "non 0:", n_non_0, ": len ", len(zero_indices))
             neg_indices = zero_indices.tolist()
             extra_samples = n_non_0 * n_neg + extra_samples - len(zero_indices)
         else:
