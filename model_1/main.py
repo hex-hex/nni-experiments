@@ -113,7 +113,7 @@ def main(param):
     print(param)
     model = create_model(neg_dataset, param['hidden_factors'], param['lr'], param['regularizer'])
     history = model.fit([train.user_id, train.item_id], train.rating, batch_size=param['batch'],
-                        epochs=10, verbose=0)
+                        epochs=10, verbose=2)
     results = model.evaluate([test.user_id, test.item_id], test.rating, batch_size=1, verbose=0)
     nni.report_final_result(results[1])
 
