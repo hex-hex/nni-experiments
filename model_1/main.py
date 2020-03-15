@@ -115,7 +115,7 @@ def main(param):
     history = model.fit([train.user_id, train.item_id], train.rating, batch_size=param['batch'],
                         epochs=10, verbose=0)
     results = model.evaluate([test.user_id, test.item_id], test.rating, batch_size=1, verbose=0)
-    nni.report_final_result(results)
+    nni.report_final_result(results[1])
 
 
 def get_params():
