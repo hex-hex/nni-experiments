@@ -18,6 +18,13 @@ seed = 2020
 embedding_init = RandomUniform(seed=seed)
 relu_init = he_uniform(seed=seed)
 
+dataset = pd.read_csv('../source_data/ml-latest-small/ratings.csv', usecols=[0, 1, 2, 3],
+                      names=['user_id', 'item_id', 'rating', 'timestamp'])
+
+dataset.user_id = dataset.user_id.astype('category').cat.codes.values
+dataset.item_id = dataset.item_id.astype('category').cat.codes.values
+dataset.rating = pd.to_numeric(dataset.rating, errors='coerce')
+
 
 def neg_sampling(ratings_df, n_neg=1, neg_val=0, pos_val=1, percent_print=5):
     """version 1.2: 1 positive 1 neg (2 times bigger than the original dataset by default)
@@ -96,13 +103,6 @@ def create_model(dataset, n_latent_factors=16, learning_rate=0.1, regu=1e-6):
     return model
 
 
-dataset = pd.read_csv('../source_data/ml-latest-small/ratings.csv', usecols=[0, 1, 2, 3],
-                      names=['user_id', 'item_id', 'rating', 'timestamp'])
-
-dataset.user_id = dataset.user_id.astype('category').cat.codes.values
-dataset.item_id = dataset.item_id.astype('category').cat.codes.values
-dataset.rating = pd.to_numeric(dataset.rating, errors='coerce')
-
 neg_dataset = neg_sampling(dataset)
 
 train, test = train_test_split(neg_dataset, test_size=0.2, random_state=2020)
@@ -111,7 +111,11 @@ train, val = train_test_split(train, test_size=0.2, random_state=2020)
 
 def main(param):
     print(param)
-    print(train)
+    model = create_model(neg_dataset, param['hidden_factors'], param['lr'], param['regularizer'])
+    history = model.fit([train.user_id, train.item_id], train.rating, batch_size=param['batch'],
+                        epochs=10, verbose=0)
+    results = model.evaluate([test.user_id, test.item_id], test.rating, batch_size=1, verbose=0)
+    nni.report_final_result(results)
 
 
 def get_params():
