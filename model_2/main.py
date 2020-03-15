@@ -1,4 +1,5 @@
 import argparse
+import math
 import random
 import time
 import warnings
@@ -11,6 +12,7 @@ import nni
 import tensorflow as tf
 from keras import Model
 from keras.layers import Dense, BatchNormalization, Dropout
+from keras.utils import Sequence
 from scipy.sparse import coo_matrix
 from tensorflow.keras.callbacks import Callback
 from keras.initializers import RandomUniform, he_uniform
@@ -125,6 +127,42 @@ def create_model(dataset, n_latent_factors=16, learning_rate=0.1, regu=1e-6):
     return model
 
 
+class DataGenerator(Sequence):
+    def __init__(self, dataframe, batch_size=16, shuffle=True):
+        'Initialization'
+        self.batch_size = batch_size
+        self.dataframe = dataframe
+        self.shuffle = shuffle
+        self.indices = dataframe.index
+        print(len(self.indices))
+        self.on_epoch_end()
+
+    def __len__(self):
+        'Denotes the number of batches per epoch'
+        return math.floor(len(self.dataframe) / self.batch_size)
+
+    def __getitem__(self, index):
+        'Generate one batch of data'
+        # Generate indexes of the batch
+        idxs = [i for i in range(index * self.batch_size, (index + 1) * self.batch_size)]
+        # print(idxs)
+        # Find list of IDs
+        list_IDs_temp = [self.indices[k] for k in idxs]
+
+        # Generate data
+        User = self.dataframe.iloc[list_IDs_temp, [0]].to_numpy().reshape(-1)
+        Item = self.dataframe.iloc[list_IDs_temp, [1]].to_numpy().reshape(-1)
+        rating = self.dataframe.iloc[list_IDs_temp, [2]].to_numpy().reshape(-1)
+        # print("u,i,r:", [User, Item],[y])
+        return [User, Item], [rating]
+
+    def on_epoch_end(self):
+        'Updates indexes after each epoch'
+        self.indices = np.arange(len(self.dataframe))
+        if self.shuffle == True:
+            np.random.shuffle(self.indices)
+
+
 neg_dataset = neg_sampling(dataset)
 
 train, test = train_test_split(neg_dataset, test_size=0.2, random_state=2020)
@@ -133,8 +171,8 @@ train, val = train_test_split(train, test_size=0.2, random_state=2020)
 
 def main(param):
     model = create_model(neg_dataset, param['hidden_factors'], param['lr'], param['regularizer'])
-    history = model.fit([train.user_id, train.item_id], train.rating, batch_size=param['batch'],
-                        epochs=10, verbose=0)
+    train_generator = DataGenerator(train, batch_size=param['batch'], shuffle=False)
+    history = model.fit(train_generator, epochs=10, verbose=0)
     results = model.evaluate([test.user_id, test.item_id], test.rating, batch_size=1, verbose=0)
     print(results)
     nni.report_final_result(results[1])

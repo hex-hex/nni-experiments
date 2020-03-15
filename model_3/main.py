@@ -8,7 +8,9 @@ import numpy as np
 
 import nni
 import tensorflow as tf
+from keras import Input, Model, layers
 from keras.initializers import RandomUniform, he_uniform
+from keras.layers import Dense, BatchNormalization, Dropout
 from keras.regularizers import l2
 from scipy.sparse import coo_matrix
 from sklearn.model_selection import train_test_split
@@ -25,18 +27,14 @@ dataset.user_id = dataset.user_id.astype('category').cat.codes.values
 dataset.item_id = dataset.item_id.astype('category').cat.codes.values
 dataset.rating = pd.to_numeric(dataset.rating, errors='coerce')
 
+uids = np.sort(dataset.user_id.unique())
+iids = np.sort(dataset.item_id.unique())
+
+n_users = len(uids)
+n_items = len(iids)
+
 
 def neg_sampling(ratings_df, n_neg=1, neg_val=0, pos_val=1, percent_print=5):
-    """version 1.2: 1 positive 1 neg (2 times bigger than the original dataset by default)
-
-      Parameters:
-      input rating data as pandas dataframe: userId|movieId|rating
-      n_neg: include n_negative / 1 positive
-
-      Returns:
-      negative sampled set as pandas dataframe
-              userId|movieId|interact (implicit)
-    """
     sparse_mat = coo_matrix((ratings_df.rating, (ratings_df.user_id, ratings_df.item_id)), dtype=np.float64)
     dense_mat = np.asarray(sparse_mat.todense())
     print(dense_mat.shape)
@@ -77,36 +75,128 @@ def neg_sampling(ratings_df, n_neg=1, neg_val=0, pos_val=1, percent_print=5):
     return nsamples
 
 
-def create_model(dataset, n_latent_factors=16, learning_rate=0.1, regu=1e-6):
-    n_users, n_movies = len(dataset.user_id.unique()), len(dataset.item_id.unique())
-
-    movie_input = keras.layers.Input(shape=[1], name='Item')
-    movie_embedding = keras.layers.Embedding(n_movies, n_latent_factors,
-                                             embeddings_initializer=embedding_init,
-                                             embeddings_regularizer=l2(regu),
-                                             embeddings_constraint="NonNeg",
-                                             name='Movie-Embedding')(movie_input)
-    movie_vec = keras.layers.Flatten(name='FlattenMovies')(movie_embedding)
-
-    user_input = keras.layers.Input(shape=[1], name='User')
-    user_embedding = keras.layers.Embedding(n_users, n_latent_factors,
-                                            embeddings_initializer=embedding_init,
-                                            embeddings_regularizer=l2(regu),
-                                            embeddings_constraint="NonNeg",
-                                            name='User-Embedding')(user_input)
-    user_vec = keras.layers.Flatten(name='FlattenUsers')(user_embedding)
-
-    prod = keras.layers.dot([movie_vec, user_vec], axes=1, normalize=True, name='DotProduct')
-    model = keras.Model([user_input, movie_input], prod)
-    sgd = tf.keras.optimizers.SGD(learning_rate)  # ?
-    model.compile(optimizer='sgd', loss='binary_crossentropy', metrics=['binary_accuracy'])
-    return model
+def create_rating_matrix(u_i_r_df):
+    rating_matrix = np.zeros(shape=(n_users, n_items), dtype=int)
+    for row in u_i_r_df.itertuples(index=False):
+        rating_matrix[int(row[0]), int(row[1])] = int(row[2])
+    return rating_matrix
 
 
 neg_dataset = neg_sampling(dataset)
 
 train, test = train_test_split(neg_dataset, test_size=0.2, random_state=2020)
 train, val = train_test_split(train, test_size=0.2, random_state=2020)
+
+
+def create_hidden_size(n_hidden_layers=3, n_latent_factors=32):
+    hidden_size = [n_latent_factors * 2 ** i for i in reversed(range(n_hidden_layers))]
+    return hidden_size
+
+
+def create_model(n_users, n_items, learning_rate, n_hidden_layers, n_latent_factors, l1=1e-5, l2=1e-4):
+    # hidden_size = create_hidden_size()
+    hidden_size = create_hidden_size(n_hidden_layers, n_latent_factors)
+
+    # create 4 input layers
+    uii = Input(shape=(n_items,), name='uii')
+    umi = Input(shape=(n_items,), name='umi')  # is a neighbour of ui
+
+    vji = Input(shape=(n_users,), name='vji')
+    vni = Input(shape=(n_users,), name='vni')  # is a neighour of vj
+
+    # user autoencoder
+    encoded = uii
+    for nn in hidden_size[:-1]:
+        encoded = Dense(nn, activation='relu',
+                        kernel_initializer='he_uniform',
+                        # kernel_regularizer=l2(l2_val)
+                        )(encoded)
+        # encoded = BatchNormalization()(encoded)
+        # encoded = Dropout(0.2)(encoded)
+
+    encoded = Dense(hidden_size[-1], activation='relu',
+                    kernel_initializer='he_uniform',
+                    # kernel_regularizer=l2(l2_val),
+                    name='encoder')(encoded)
+
+    hidden_size.reverse()
+    decoded = encoded
+    for nn in hidden_size[1:]:
+        decoded = Dense(nn, activation='relu',
+                        kernel_initializer='he_uniform',
+                        # kernel_regularizer=l2(l2_val)
+                        )(decoded)
+        # decoded = BatchNormalization()(decoded)
+        # decoded = Dropout(0.2)(decoded)
+    decoded = Dense(n_items, activation='relu',
+                    kernel_initializer='he_uniform',
+                    # kernel_regularizer=l2(l2_val),
+                    name='decoder')(decoded)
+
+    # for item autoencoder
+    # hidden_size = create_hidden_size() #reset hidden size
+    hidden_size = create_hidden_size(n_hidden_layers, n_latent_factors)  # reset hidden size
+    encoded2 = vji
+    for nn in hidden_size[:-1]:
+        encoded2 = Dense(nn, activation='relu',
+                         kernel_initializer='he_uniform',
+                         #  kernel_regularizer=l2(l2_val)
+                         )(encoded2)
+        # encoded2 = BatchNormalization()(encoded2)
+        # encoded2 = Dropout(0.2)(encoded2)
+
+    encoded2 = Dense(hidden_size[-1], activation='relu',
+                     kernel_initializer='he_uniform',
+                     #  kernel_regularizer=l2(l2_val),
+                     name='encoder2')(encoded2)
+
+    hidden_size.reverse()
+    decoded2 = encoded2
+    for nn in hidden_size[1:]:
+        decoded2 = Dense(nn, activation='relu',
+                         kernel_initializer='he_uniform',
+                         #  kernel_regularizer=l2(l2_val)
+                         )(decoded2)
+        # decoded2 = BatchNormalization()(decoded2)
+        # decoded2 = Dropout(0.2)(decoded2)
+
+    decoded2 = Dense(n_users, activation='relu',
+                     kernel_initializer='he_uniform',
+                     # kernel_regularizer=l2(l2_val),
+                     name='decoder2')(decoded2)
+
+    # prod = layers.dot([encoded, encoded2], axes=1, name='DotProduct')
+    # V2: replace dot prod with mlp
+    concat = layers.concatenate([encoded, encoded2])
+    mlp = concat
+    for i in range(3, -1, -1):
+        if i == 0:
+            mlp = Dense(1, activation='sigmoid',
+                        name="output")(mlp)
+        else:
+            mlp = Dense(8 * 2 ** i, activation='sigmoid',
+                        # kernel_regularizer=l1_l2(l1_val,l2_val),
+                        # kernel_initializer=ß'he_uniform'
+                        )(mlp)
+            if i >= 2:
+                mlp = BatchNormalization()(mlp)
+                mlp = Dropout(0.2)(mlp)
+
+    model = Model(inputs=[uii, vji], outputs=[decoded, decoded2, mlp])
+    adadelta = tf.keras.optimizers.Adadelta(learning_rate)
+    model.compile(optimizer='adadelta', loss={'output': 'binary_crossentropy',
+                                              'decoder': 'mean_squared_error',
+                                              'decoder2': 'mean_squared_error'
+                                              },
+                  metrics={'output': ['binary_accuracy',
+                                      #  'Precision', 'AUC'
+                                      ],
+                           'decoder': 'mse',
+                           'decoder2': 'mse'})
+
+    # model.summary()
+
+    return model
 
 
 def main(param):
@@ -121,6 +211,7 @@ def main(param):
 def get_params():
     parser = argparse.ArgumentParser()
     parser.add_argument("--hidden_factors", type=int, default=8)
+    parser.add_argument("--hidden_layers", type=int, default=3)
     parser.add_argument("--batch", type=int, default=128)
     parser.add_argument("--regularizer", type=float, default=1e-4)
     parser.add_argument("--lr", type=float, default=1e-4)
