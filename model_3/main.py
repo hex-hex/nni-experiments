@@ -1,4 +1,5 @@
 import argparse
+import math
 import random
 import time
 
@@ -12,6 +13,7 @@ from keras import Input, Model, layers
 from keras.initializers import RandomUniform, he_uniform
 from keras.layers import Dense, BatchNormalization, Dropout
 from keras.regularizers import l2
+from keras.utils import Sequence
 from scipy.sparse import coo_matrix
 from sklearn.model_selection import train_test_split
 
@@ -86,6 +88,8 @@ neg_dataset = neg_sampling(dataset)
 
 train, test = train_test_split(neg_dataset, test_size=0.2, random_state=2020)
 train, val = train_test_split(train, test_size=0.2, random_state=2020)
+
+rating_matrix = create_rating_matrix(neg_dataset)
 
 
 def create_hidden_size(n_hidden_layers=3, n_latent_factors=32):
@@ -199,12 +203,57 @@ def create_model(n_users, n_items, learning_rate, n_hidden_layers, n_latent_fact
     return model
 
 
+class DataGenerator(Sequence):
+    def __init__(self, dataset, rating_matrix, batch_size=32, shuffle=True):
+        'Initialization'
+        self.batch_size = batch_size
+        self.dataset = dataset
+        self.shuffle = shuffle
+        self.indexes = self.dataset.index
+        self.rating_matrix = rating_matrix
+        self.on_epoch_end()
+
+    def __len__(self):
+        'Denotes the number of batches per epoch'
+        return math.floor(len(self.dataset) / self.batch_size)
+
+    def __getitem__(self, index):
+        'Generate one batch of data'
+        # Generate indexes of the batch
+        idxs = [i for i in range(index * self.batch_size, (index + 1) * self.batch_size)]
+
+        # Find list of IDs
+        list_IDs_temp = [self.indexes[k] for k in idxs]
+
+        # Generate data
+        uids = self.dataset.iloc[list_IDs_temp, [0]].to_numpy().reshape(-1)
+        iids = self.dataset.iloc[list_IDs_temp, [1]].to_numpy().reshape(-1)
+        # print(uids)
+        Users = np.stack([rating_matrix[row] for row in uids])
+        Items = np.stack([rating_matrix[:, col] for col in iids])
+        ratings = self.dataset.iloc[list_IDs_temp, [2]].to_numpy().reshape(-1)
+
+        # ratings = keras.utils.to_categorical(rr)
+        # print(Items, type(Items))
+        # print(ratings, type(ratings))
+
+        return (Users, Items), (Users, Items, ratings)
+
+    def on_epoch_end(self):
+        'Updates indexes after each epoch'
+        self.indexes = np.arange(len(self.dataset))
+        if self.shuffle == True:
+            np.random.shuffle(self.indexes)
+
+
 def main(param):
     print(param)
-    model = create_model(neg_dataset, param['hidden_factors'], param['lr'], param['regularizer'])
-    history = model.fit([train.user_id, train.item_id], train.rating, batch_size=param['batch'],
-                        epochs=10, verbose=0)
-    results = model.evaluate([test.user_id, test.item_id], test.rating, batch_size=1, verbose=0)
+    model = create_model(n_users, n_items, param['lr'], param['hidden_factors'], param['regularizer'],
+                         param['regularizer'])
+    traindatagenerator = DataGenerator(train, rating_matrix, batch_size=j, shuffle=True)
+    history = model.fit(traindatagenerator, epochs=100, verbose=0)
+    testdatagenerator = DataGenerator(test, rating_matrix, batch_size=j)
+    results = model.evaluate(testdatagenerator, verbose=0)
     nni.report_final_result(results[1])
 
 
