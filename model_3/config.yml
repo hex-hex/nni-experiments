@@ -1,0 +1,18 @@
+authorName: default
+experimentName: tunning_model_2
+trialConcurrency: 1
+maxExecDuration: 1h
+maxTrialNum: 30
+trainingServicePlatform: local
+# The path to Search Space
+searchSpacePath: search_space.json
+useAnnotation: false
+tuner:
+  builtinTunerName: TPE
+# The path and the running command of trial
+trial:
+  command: python main.py
+  codeDir: .
+  gpuNum: 1
+localConfig:
+  useActiveGpu: true
