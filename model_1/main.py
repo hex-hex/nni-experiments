@@ -7,6 +7,7 @@ import pandas as pd
 import numpy as np
 
 import nni
+import scipy
 import tensorflow as tf
 from keras.initializers import RandomUniform, he_uniform
 from keras.regularizers import l2
@@ -18,8 +19,10 @@ seed = 2020
 embedding_init = RandomUniform(seed=seed)
 relu_init = he_uniform(seed=seed)
 
-dataset = pd.read_csv('../source_data/ml-latest-small/ratings.csv', usecols=[0, 1, 2, 3],
-                      names=['user_id', 'item_id', 'rating', 'timestamp'])
+# dataset = pd.read_csv('../source_data/ml-latest-small/ratings.csv', usecols=[0, 1, 2, 3],
+#                       names=['user_id', 'item_id', 'rating', 'timestamp'])
+
+dataset = pd.read_csv("../source_data/ml-100k/u.data", sep='\t', names="user_id,item_id,rating,timestamp".split(","))
 
 dataset.user_id = dataset.user_id.astype('category').cat.codes.values
 dataset.item_id = dataset.item_id.astype('category').cat.codes.values
@@ -27,41 +30,31 @@ dataset.rating = pd.to_numeric(dataset.rating, errors='coerce')
 
 
 def neg_sampling(ratings_df, n_neg=1, neg_val=0, pos_val=1, percent_print=5):
-    """version 1.2: 1 positive 1 neg (2 times bigger than the original dataset by default)
-
-      Parameters:
-      input rating data as pandas dataframe: userId|movieId|rating
-      n_neg: include n_negative / 1 positive
-
-      Returns:
-      negative sampled set as pandas dataframe
-              userId|movieId|interact (implicit)
-    """
-    sparse_mat = coo_matrix((ratings_df.rating, (ratings_df.user_id, ratings_df.item_id)), dtype=np.float64)
+    sparse_mat = scipy.sparse.coo_matrix((ratings_df.rating, (ratings_df.user_id, ratings_df.item_id)))
     dense_mat = np.asarray(sparse_mat.todense())
     print(dense_mat.shape)
 
     nsamples = ratings_df[['user_id', 'item_id']]
-    nsamples.loc['rating'] = nsamples.apply(lambda row: 1, axis=1)
+    nsamples['rating'] = nsamples.apply(lambda row: 1, axis=1)
     length = dense_mat.shape[0]
     printpc = int(length * percent_print / 100)
 
     nTempData = []
     i = 0
-    # start_time = time.time()
-    # stop_time = time.time()
+    start_time = time.time()
+    stop_time = time.time()
 
     extra_samples = 0
     for row in dense_mat:
-        if i % printpc == 0:
+        if (i % printpc == 0):
             stop_time = time.time()
-            # print("processed ... {0:0.2f}% ...{1:0.2f}secs".format(float(i) * 100 / length, stop_time - start_time))
+            print("processed ... {0:0.2f}% ...{1:0.2f}secs".format(float(i) * 100 / length, stop_time - start_time))
             start_time = stop_time
 
         n_non_0 = len(np.nonzero(row)[0])
         zero_indices = np.where(row == 0)[0]
-        if n_non_0 * n_neg + extra_samples > len(zero_indices):
-            # print(i, "non 0:", n_non_0, ": len ", len(zero_indices))
+        if (n_non_0 * n_neg + extra_samples > len(zero_indices)):
+            print(i, "non 0:", n_non_0, ": len ", len(zero_indices))
             neg_indices = zero_indices.tolist()
             extra_samples = n_non_0 * n_neg + extra_samples - len(zero_indices)
         else:
@@ -115,7 +108,7 @@ def main(param):
     history = model.fit([train.user_id, train.item_id], train.rating, batch_size=param['batch'],
                         epochs=10, verbose=2)
     results = model.evaluate([test.user_id, test.item_id], test.rating, batch_size=1, verbose=0)
-    nni.report_final_result(results[1])
+    nni.report_final_result(results)
 
 
 def get_params():
