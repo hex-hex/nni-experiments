@@ -14,5 +14,3 @@ trial:
   command: python main.py
   codeDir: .
   gpuNum: 1
-localConfig:
-  useActiveGpu: true
