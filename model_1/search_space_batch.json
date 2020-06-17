@@ -1,0 +1,28 @@
+{
+  "hidden_factors": {
+    "_type": "choice",
+    "_value": [
+      8,
+      16,
+      32,
+      64
+    ]
+  },
+  "batch": {
+    "_type": "choice",
+    "_value": [
+      128,
+      256,
+      512,
+      1024
+    ]
+  },
+  "regularizer": {
+    "_type": "choice",
+    "_value": [
+      1e-4,
+      1e-6,
+      1e-8
+    ]
+  }
+}
