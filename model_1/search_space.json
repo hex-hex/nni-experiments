@@ -8,11 +8,12 @@
     ]
   },
   "batch": {
-    "_type": "quniform",
+    "_type": "choice",
     "_value": [
       128,
-      1024,
-      128
+      256,
+      512,
+      1024
     ]
   },
   "regularizer": {
