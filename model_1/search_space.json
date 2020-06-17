@@ -1,20 +1,18 @@
 {
   "hidden_factors": {
-    "_type": "choice",
+    "_type": "quniform",
     "_value": [
       8,
-      16,
-      32,
-      64
+      64,
+      2
     ]
   },
   "batch": {
-    "_type": "choice",
+    "_type": "quniform",
     "_value": [
       128,
-      256,
-      512,
-      1024
+      1024,
+      128
     ]
   },
   "regularizer": {
