@@ -146,7 +146,7 @@ def main(param):
     model = create_model(neg_dataset, embeddings_regu, param['hidden_factors'])
     train_generator = DataGenerator(train, batch_size=param['batch'], shuffle=False)
     history = model.fit(train_generator, epochs=50, verbose=2)
-    results = model.eevaluatevaluate([test.user_id, test.item_id], test.rating, batch_size=1, verbose=0)
+    results = model.evaluate([test.user_id, test.item_id], test.rating, batch_size=1, verbose=0)
     nni.report_final_result(results[1])
 
 
