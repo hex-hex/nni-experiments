@@ -9,6 +9,8 @@ searchSpacePath: search_space.json
 useAnnotation: false
 tuner:
   builtinTunerName: MetisTuner
+  classArgs:
+    optimize_mode: maximize
 # The path and the running command of trial
 trial:
   command: python main.py
