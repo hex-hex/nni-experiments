@@ -7,8 +7,8 @@ trainingServicePlatform: local
 # The path to Search Space
 searchSpacePath: search_space.json
 useAnnotation: false
-tuner:
-  builtinTunerName: BOHB
+advisor:
+  builtinAdvisorName: BOHB
   classArgs:
     optimize_mode: maximize
     min_budget: 1
