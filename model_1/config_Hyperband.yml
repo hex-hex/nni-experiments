@@ -7,8 +7,8 @@ trainingServicePlatform: local
 # The path to Search Space
 searchSpacePath: search_space.json
 useAnnotation: false
-tuner:
-  builtinTunerName: Hyperband
+advisor:
+  builtinAdvisorName: Hyperband
   classArgs:
     optimize_mode: maximize
     R: 60

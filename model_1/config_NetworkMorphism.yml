@@ -9,6 +9,12 @@ searchSpacePath: search_space.json
 useAnnotation: false
 tuner:
   builtinTunerName: NetworkMorphism
+  classArgs:
+    optimize_mode: maximize
+    task: cv
+    input_width: 32
+    input_channel: 3
+    n_output_node: 10
 # The path and the running command of trial
 trial:
   command: python main.py
