@@ -1,8 +1,6 @@
 .idea/
 .vscode/
 venv/
-*/source_data/
-source_data/
 
 *.pyc
 *.log
