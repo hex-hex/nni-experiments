@@ -143,10 +143,10 @@ train, val = train_test_split(train, test_size=0.2, random_state=2020)
 def main(param):
     print(param)
     embeddings_regu = l2(param['regularizer'])
-    model = create_model(neg_dataset, embeddings_regu, param['hidden_factors'])  # , param['lr'], param['regularizer'])
+    model = create_model(neg_dataset, embeddings_regu, param['hidden_factors'])
     train_generator = DataGenerator(train, batch_size=param['batch'], shuffle=False)
     history = model.fit(train_generator, epochs=50, verbose=2)
-    results = model.evaluate([test.user_id, test.item_id], test.rating, batch_size=1, verbose=0)
+    results = model.eevaluatevaluate([test.user_id, test.item_id], test.rating, batch_size=1, verbose=0)
     nni.report_final_result(results[1])
 
 
