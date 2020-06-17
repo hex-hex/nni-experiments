@@ -21,6 +21,8 @@ embedding_init = RandomUniform(seed=seed)
 relu_init = he_uniform(seed=seed)
 
 dataset = pd.read_csv("../source_data/ml-100k/u.data", sep='\t', names="user_id,item_id,rating,timestamp".split(","))
+# dataset = pd.read_csv('../source_data/ml-1m/ratings.dat', delimiter='::',
+#                       names=['user_id', 'item_id', 'rating', 'timestamp'])
 dataset.user_id = dataset.user_id.astype('category').cat.codes.values
 dataset.item_id = dataset.item_id.astype('category').cat.codes.values
 dataset.rating = pd.to_numeric(dataset.rating, errors='coerce')
