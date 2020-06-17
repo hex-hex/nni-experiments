@@ -18,10 +18,9 @@
     ]
   },
   "regularizer": {
-    "_type": "choice",
+    "_type": "uniform",
     "_value": [
       1e-4,
-      1e-6,
       1e-8
     ]
   }
