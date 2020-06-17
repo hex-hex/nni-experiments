@@ -121,9 +121,7 @@ def create_model(dataset, n_latent_factors=16, learning_rate=0.1, regu=1e-6):
                 mlp = Dropout(0.2)(mlp)
 
     model = Model(inputs=[user_input, movie_input], outputs=[mlp])
-    adam = tf.keras.optimizers.Adam(learning_rate)
     model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['binary_accuracy'])
-    # model.summary()
     return model
 
 
