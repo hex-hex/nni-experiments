@@ -9,6 +9,10 @@ searchSpacePath: search_space.json
 useAnnotation: false
 tuner:
   builtinTunerName: Hyperband
+  classArgs:
+    optimize_mode: maximize
+    R: 60
+    eta: 3
 # The path and the running command of trial
 trial:
   command: python main.py
