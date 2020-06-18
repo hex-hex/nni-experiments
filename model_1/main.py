@@ -142,7 +142,7 @@ train, val = train_test_split(train, test_size=0.2, random_state=2020)
 
 def main(param):
     print(param)
-    embeddings_regu = l2(param['regularizer'])
+    embeddings_regu = l2(10 ** param['regularizer'])
     model = create_model(neg_dataset, embeddings_regu, param['hidden_factors'])
     train_generator = DataGenerator(train, batch_size=param['batch'], shuffle=False)
     history = model.fit(train_generator, epochs=100, verbose=2)

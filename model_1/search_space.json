@@ -2,10 +2,12 @@
   "hidden_factors": {
     "_type": "choice",
     "_value": [
+      4,
       8,
       16,
       32,
-      64
+      64,
+      128
     ]
   },
   "batch": {
@@ -21,8 +23,8 @@
   "regularizer": {
     "_type": "uniform",
     "_value": [
-      1e-4,
-      1e-8
+      -8,
+      -4
     ]
   }
 }
