@@ -10,4 +10,16 @@
 + The mnist data set has to be added.
 
 # Installation
+```shell
+sudo apt-get install build-essential swig 
 pip install -U numpy cython
+pip install gym 
+nnictl package install --name SMAC 
+nnictl package install –name BOHB 
+```
+
+ 
+
+
+
+
