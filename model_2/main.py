@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 
 import nni
-import tensorflow as tf
+import scipy
 from keras import Model
 from keras.layers import Dense, BatchNormalization, Dropout
 from keras.utils import Sequence
@@ -19,14 +19,17 @@ from keras.initializers import RandomUniform, he_uniform
 from keras.regularizers import l2
 from sklearn.model_selection import train_test_split
 
-model_name = 'model1'
+model_name = 'model2ai'
 seed = 2020
 embedding_init = RandomUniform(seed=seed)
 relu_init = he_uniform(seed=seed)
+embeddings_regu = l2(1e-6)
+n_latent_factors = 16
+loss_threshold = 0.5
 
-dataset = pd.read_csv('../source_data/ml-latest-small/ratings.csv', usecols=[0, 1, 2, 3],
-                      names=['user_id', 'item_id', 'rating', 'timestamp'])
-
+dataset = pd.read_csv("../source_data/ml-100k/u.data", sep='\t', names="user_id,item_id,rating,timestamp".split(","))
+# dataset = pd.read_csv('../source_data/ml-1m/ratings.dat', delimiter='::',
+#                       names=['user_id', 'item_id', 'rating', 'timestamp'])
 dataset.user_id = dataset.user_id.astype('category').cat.codes.values
 dataset.item_id = dataset.item_id.astype('category').cat.codes.values
 dataset.rating = pd.to_numeric(dataset.rating, errors='coerce')
@@ -50,29 +53,45 @@ class EarlyStoppingByLossVal(Callback):
             self.model.stop_training = True
 
 
+# Version 1.2 (flexible + superfast negative sampling uniform)
+
+
 def neg_sampling(ratings_df, n_neg=1, neg_val=0, pos_val=1, percent_print=5):
-    sparse_mat = coo_matrix((ratings_df.rating, (ratings_df.user_id, ratings_df.item_id)), dtype=np.float64)
+    """version 1.2: 1 positive 1 neg (2 times bigger than the original dataset by default)
+
+      Parameters:
+      input rating data as pandas dataframe: userId|movieId|rating
+      n_neg: include n_negative / 1 positive
+
+      Returns:
+      negative sampled set as pandas dataframe
+              userId|movieId|interact (implicit)
+    """
+    sparse_mat = scipy.sparse.coo_matrix((ratings_df.rating, (ratings_df.user_id, ratings_df.item_id)))
     dense_mat = np.asarray(sparse_mat.todense())
     print(dense_mat.shape)
 
     nsamples = ratings_df[['user_id', 'item_id']]
-    nsamples.loc['rating'] = nsamples.apply(lambda row: 1, axis=1)
+    nsamples['rating'] = nsamples.apply(lambda row: 1, axis=1)
     length = dense_mat.shape[0]
     printpc = int(length * percent_print / 100)
 
     nTempData = []
     i = 0
+    start_time = time.time()
+    stop_time = time.time()
+
     extra_samples = 0
     for row in dense_mat:
-        if i % printpc == 0:
+        if (i % printpc == 0):
             stop_time = time.time()
-            # print("processed ... {0:0.2f}% ...{1:0.2f}secs".format(float(i) * 100 / length, stop_time - start_time))
+            print("processed ... {0:0.2f}% ...{1:0.2f}secs".format(float(i) * 100 / length, stop_time - start_time))
             start_time = stop_time
 
         n_non_0 = len(np.nonzero(row)[0])
         zero_indices = np.where(row == 0)[0]
-        if n_non_0 * n_neg + extra_samples > len(zero_indices):
-            # print(i, "non 0:", n_non_0, ": len ", len(zero_indices))
+        if (n_non_0 * n_neg + extra_samples >= len(zero_indices)):
+            print(i, "non 0:", n_non_0, ": len ", len(zero_indices))
             neg_indices = zero_indices.tolist()
             extra_samples = n_non_0 * n_neg + extra_samples - len(zero_indices)
         else:
@@ -88,13 +107,12 @@ def neg_sampling(ratings_df, n_neg=1, neg_val=0, pos_val=1, percent_print=5):
     return nsamples
 
 
-def create_model(dataset, n_latent_factors=16, learning_rate=0.1, regu=1e-6):
-    # def create_model(dataset, n_latent_factors=16):
+def create_model(dataset, n_latent_factors=16, regularizer=1e-6, learning_rate=0.001):
     n_users, n_movies = len(dataset.user_id.unique()), len(dataset.item_id.unique())
     movie_input = keras.layers.Input(shape=[1], name='Item')
     movie_embedding = keras.layers.Embedding(n_movies, n_latent_factors,
                                              embeddings_initializer=embedding_init,
-                                             embeddings_regularizer=l2(regu),
+                                             embeddings_regularizer=l2(regularizer),
                                              embeddings_constraint='NonNeg',
                                              name='Movie-Embedding')(movie_input)
     movie_vec = keras.layers.Flatten(name='FlattenMovies')(movie_embedding)
@@ -102,7 +120,7 @@ def create_model(dataset, n_latent_factors=16, learning_rate=0.1, regu=1e-6):
     user_input = keras.layers.Input(shape=[1], name='User')
     user_embedding = keras.layers.Embedding(n_users, n_latent_factors,
                                             embeddings_initializer=embedding_init,
-                                            embeddings_regularizer=l2(regu),
+                                            embeddings_regularizer=l2(regularizer),
                                             embeddings_constraint='NonNeg',
                                             name='User-Embedding')(user_input)
     user_vec = keras.layers.Flatten(name='FlattenUsers')(user_embedding)
@@ -121,13 +139,17 @@ def create_model(dataset, n_latent_factors=16, learning_rate=0.1, regu=1e-6):
                 mlp = Dropout(0.2)(mlp)
 
     model = Model(inputs=[user_input, movie_input], outputs=[mlp])
-    model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['binary_accuracy'])
+
+    opt = keras.optimizers.Adam(learning_rate=learning_rate)
+    model.compile(optimizer=opt, loss='binary_crossentropy', metrics=['binary_accuracy'])
+
+    model.summary()
     return model
 
 
 class DataGenerator(Sequence):
     def __init__(self, dataframe, batch_size=16, shuffle=True):
-        'Initialization'
+        """Initialization"""
         self.batch_size = batch_size
         self.dataframe = dataframe
         self.shuffle = shuffle
@@ -136,11 +158,11 @@ class DataGenerator(Sequence):
         self.on_epoch_end()
 
     def __len__(self):
-        'Denotes the number of batches per epoch'
+        """Denotes the number of batches per epoch"""
         return math.floor(len(self.dataframe) / self.batch_size)
 
     def __getitem__(self, index):
-        'Generate one batch of data'
+        """Generate one batch of data"""
         # Generate indexes of the batch
         idxs = [i for i in range(index * self.batch_size, (index + 1) * self.batch_size)]
         # print(idxs)
@@ -155,9 +177,9 @@ class DataGenerator(Sequence):
         return [User, Item], [rating]
 
     def on_epoch_end(self):
-        'Updates indexes after each epoch'
+        """Updates indexes after each epoch"""
         self.indices = np.arange(len(self.dataframe))
-        if self.shuffle == True:
+        if self.shuffle:
             np.random.shuffle(self.indices)
 
 
@@ -168,10 +190,10 @@ train, val = train_test_split(train, test_size=0.2, random_state=2020)
 
 
 def main(param):
-    model = create_model(neg_dataset, param['hidden_factors'], param['lr'], param['regularizer'])
-    train_generator = DataGenerator(train, batch_size=param['batch'], shuffle=False)
-    history = model.fit(train_generator, epochs=10, verbose=0)
-    results = model.evaluate([test.user_id, test.item_id], test.rating, batch_size=1, verbose=0)
+    model = create_model(neg_dataset, param['hidden_factors'])
+    train_generator = DataGenerator(train, batch_size=256, shuffle=False)
+    history = model.fit(train_generator, epochs=100, verbose=2)
+    results = model.evaluate((test.user_id, test.item_id), test.rating, batch_size=16)
     print(results)
     nni.report_final_result(results[1])
 
