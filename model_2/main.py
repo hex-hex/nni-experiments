@@ -27,9 +27,8 @@ embeddings_regu = l2(1e-6)
 n_latent_factors = 16
 loss_threshold = 0.5
 
-dataset = pd.read_csv("../source_data/ml-100k/u.data", sep='\t', names="user_id,item_id,rating,timestamp".split(","))
-# dataset = pd.read_csv('../source_data/ml-1m/ratings.dat', delimiter='::',
-#                       names=['user_id', 'item_id', 'rating', 'timestamp'])
+# dataset = pd.read_csv("../source_data/ml-100k/u.data", sep='\t', names="user_id,item_id,rating,timestamp".split(","))
+dataset = pd.read_csv('../source_data/ml-1m/ratings.dat', delimiter='::', names=['user_id', 'item_id', 'rating', 'timestamp'])
 dataset.user_id = dataset.user_id.astype('category').cat.codes.values
 dataset.item_id = dataset.item_id.astype('category').cat.codes.values
 dataset.rating = pd.to_numeric(dataset.rating, errors='coerce')
