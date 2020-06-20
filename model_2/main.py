@@ -23,9 +23,9 @@ model_name = 'model2ai'
 seed = 2020
 embedding_init = RandomUniform(seed=seed)
 relu_init = he_uniform(seed=seed)
-embeddings_regu = l2(1e-6)
-n_latent_factors = 16
-loss_threshold = 0.5
+# embeddings_regu = l2(1e-6)
+# n_latent_factors = 16
+# loss_threshold = 0.5
 
 # dataset = pd.read_csv("../source_data/ml-100k/u.data", sep='\t', names="user_id,item_id,rating,timestamp".split(","))
 dataset = pd.read_csv('../source_data/ml-1m/ratings.dat', delimiter='::', names=['user_id', 'item_id', 'rating', 'timestamp'])
@@ -201,8 +201,8 @@ def get_params():
     parser = argparse.ArgumentParser()
     parser.add_argument("--hidden_factors", type=int, default=8)
     parser.add_argument("--batch", type=int, default=128)
-    parser.add_argument("--regularizer", type=float, default=1e-4)
-    parser.add_argument("--lr", type=float, default=1e-4)
+    parser.add_argument("--regularizer", type=float, default=-4)
+    parser.add_argument("--lr", type=float, default=-2)
     args, _ = parser.parse_known_args()
     return args
 
