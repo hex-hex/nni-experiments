@@ -189,8 +189,8 @@ train, val = train_test_split(train, test_size=0.2, random_state=2020)
 
 
 def main(param):
-    model = create_model(neg_dataset, param['hidden_factors'])
-    train_generator = DataGenerator(train, batch_size=256, shuffle=False)
+    model = create_model(neg_dataset, param['hidden_factors'], 10 ** param['regularizer'], 10 ** param['lr'])
+    train_generator = DataGenerator(train, batch_size=param['batch'], shuffle=False)
     history = model.fit(train_generator, epochs=100, verbose=2)
     results = model.evaluate((test.user_id, test.item_id), test.rating, batch_size=16)
     print(results)
