@@ -1,0 +1,17 @@
+abort_on_first_run_crash = True
+always_race_default = False
+execdir = .
+deterministic = False
+intensification_percentage = 0.5
+paramfile = smac3-output_2020-06-26_03:34:54_485404/run_1/param_config_space.pcs
+run_obj = quality
+overall_obj = par10
+cost_for_crash = 2147483647.0
+tuner-timeout = inf
+wallclock_limit = inf
+runcount_limit = inf
+minR = 1
+maxR = 2000
+output_dir = smac3-output_2020-06-26_03:34:54_485404
+shared_model = False
+initial_incumbent = DEFAULT

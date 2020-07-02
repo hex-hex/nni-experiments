@@ -1,0 +1,3 @@
+hidden_factors categorical {0,1,2,3,4,5} [0]
+batch categorical {0,1,2,3,4} [0]
+regularizer real [-8, -4] [-8]
