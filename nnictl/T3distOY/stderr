@@ -1,0 +1,14 @@
+/root/nni-experiments/venv/lib/python3.7/site-packages/statsmodels/tools/_testing.py:19: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as tm
+/root/nni-experiments/venv/lib/python3.7/site-packages/statsmodels/compat/pandas.py:23: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  data_klasses = (pandas.Series, pandas.DataFrame, pandas.Panel)
+-----------------------------------------------------------------------
+                Experiment start time 2020-06-30 13:42:58
+-----------------------------------------------------------------------
+(node:10442) ExperimentalWarning: The fs.promises API is experimental
+/root/nni-experiments/venv/lib/python3.7/site-packages/statsmodels/tools/_testing.py:19: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as tm
+/root/nni-experiments/venv/lib/python3.7/site-packages/statsmodels/compat/pandas.py:23: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  data_klasses = (pandas.Series, pandas.DataFrame, pandas.Panel)
+/root/nni-experiments/venv/lib/python3.7/site-packages/json_tricks/nonp.py:223: JsonTricksDeprecation: `json_tricks.load(s)` stripped some comments, but `ignore_comments` was not passed; in the next major release, the behaviour when `ignore_comments` is not passed will change; it is recommended to explicitly pass `ignore_comments=True` if you want to strip comments; see https://github.com/mverleg/pyjson_tricks/issues/74
+  JsonTricksDeprecation)

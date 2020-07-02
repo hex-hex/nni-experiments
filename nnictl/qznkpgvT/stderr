@@ -1,0 +1,10 @@
+/root/nni-experiments/venv/lib/python3.7/site-packages/pyparsing.py:3190: FutureWarning: Possible set intersection at position 3
+  self.re = re.compile(self.reString)
+-----------------------------------------------------------------------
+                Experiment start time 2020-06-26 03:34:47
+-----------------------------------------------------------------------
+(node:1803) ExperimentalWarning: The fs.promises API is experimental
+/root/nni-experiments/venv/lib/python3.7/site-packages/pyparsing.py:3190: FutureWarning: Possible set intersection at position 3
+  self.re = re.compile(self.reString)
+/root/nni-experiments/venv/lib/python3.7/site-packages/json_tricks/nonp.py:223: JsonTricksDeprecation: `json_tricks.load(s)` stripped some comments, but `ignore_comments` was not passed; in the next major release, the behaviour when `ignore_comments` is not passed will change; it is recommended to explicitly pass `ignore_comments=True` if you want to strip comments; see https://github.com/mverleg/pyjson_tricks/issues/74
+  JsonTricksDeprecation)
