@@ -2,7 +2,7 @@ authorName: Xiao HE
 experimentName: tunning_model_2
 trialConcurrency: 1
 maxExecDuration: 30h
-maxTrialNum: 30
+maxTrialNum: 40
 trainingServicePlatform: local
 # The path to Search Space
 searchSpacePath: search_space.json
