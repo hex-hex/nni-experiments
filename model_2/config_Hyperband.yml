@@ -7,8 +7,12 @@ trainingServicePlatform: local
 # The path to Search Space
 searchSpacePath: search_space.json
 useAnnotation: false
-tuner:
-  builtinTunerName: TPE
+advisor:
+  builtinAdvisorName: Hyperband
+  classArgs:
+    optimize_mode: maximize
+    R: 60
+    eta: 3
 # The path and the running command of trial
 trial:
   command: python main.py

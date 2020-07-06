@@ -5,10 +5,10 @@ maxExecDuration: 40h
 maxTrialNum: 30
 trainingServicePlatform: local
 # The path to Search Space
-searchSpacePath: search_space.json
+searchSpacePath: search_space_grid.json
 useAnnotation: false
 tuner:
-  builtinTunerName: TPE
+  builtinTunerName: GridSearch
 # The path and the running command of trial
 trial:
   command: python main.py
