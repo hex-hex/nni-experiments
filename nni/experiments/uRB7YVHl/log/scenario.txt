@@ -1,3 +1,0 @@
-deterministic = 0
-paramfile = param_config_space.pcs
-run_obj = quality

@@ -1,4 +1,0 @@
-[06/30/2020, 01:42:56 PM] WARNING (nni.protocol) IPC pipeline not exists, maybe you are importing tuner/assessor from trial code?
------------------------------------------------------------------------
-                Experiment start time 2020-06-30 13:42:58
------------------------------------------------------------------------

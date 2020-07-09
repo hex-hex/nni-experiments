@@ -1,6 +1,0 @@
------------------------------------------------------------------------
-                Experiment start time 2020-06-20 14:46:30
------------------------------------------------------------------------
-(node:13418) ExperimentalWarning: The fs.promises API is experimental
-/root/nni-experiments/venv/lib/python3.7/site-packages/json_tricks/nonp.py:223: JsonTricksDeprecation: `json_tricks.load(s)` stripped some comments, but `ignore_comments` was not passed; in the next major release, the behaviour when `ignore_comments` is not passed will change; it is recommended to explicitly pass `ignore_comments=True` if you want to strip comments; see https://github.com/mverleg/pyjson_tricks/issues/74
-  JsonTricksDeprecation)

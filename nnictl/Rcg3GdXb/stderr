@@ -1,0 +1,26 @@
+/home/xbk5244/nni-experiments/venv/lib/python3.8/site-packages/pyparsing.py:3190: FutureWarning: Possible set intersection at position 3
+  self.re = re.compile(self.reString)
+-----------------------------------------------------------------------
+                Experiment start time 2020-07-08 21:54:36
+-----------------------------------------------------------------------
+Segmentation fault (core dumped)
+Error: Dispatcher stream error, tuner may have crashed.
+    at EventEmitter.dispatcher.onError (/home/xbk5244/nni-experiments/venv/nni/core/nnimanager.js:506:32)
+    at EventEmitter.emit (events.js:182:13)
+    at Socket.IpcInterface.outgoingStream.on (/home/xbk5244/nni-experiments/venv/nni/core/ipcInterface.js:39:72)
+    at Socket.emit (events.js:182:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Error: Dispatcher stream error, tuner may have crashed.
+    at EventEmitter.dispatcher.onError (/home/xbk5244/nni-experiments/venv/nni/core/nnimanager.js:506:32)
+    at EventEmitter.emit (events.js:182:13)
+    at Socket.IpcInterface.outgoingStream.on (/home/xbk5244/nni-experiments/venv/nni/core/ipcInterface.js:39:72)
+    at Socket.emit (events.js:182:13)
+    at onwriteError (_stream_writable.js:425:12)
+    at onwrite (_stream_writable.js:456:5)
+    at doWrite (_stream_writable.js:406:11)
+    at writeOrBuffer (_stream_writable.js:394:5)
+    at Socket.Writable.write (_stream_writable.js:294:11)
+    at IpcInterface.sendCommand (/home/xbk5244/nni-experiments/venv/nni/core/ipcInterface.js:46:38)
+(node:339922) ExperimentalWarning: The fs.promises API is experimental
