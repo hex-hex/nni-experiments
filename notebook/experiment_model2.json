@@ -1,0 +1,6068 @@
+{
+  "dUkizMmG": {
+    "trials": [
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 17,
+        "trial_job_id": "KB9GD",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8217748999595642",
+        "trial_time": "2020-07-08 17:35:39.932000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 1024,
+          "hidden_factors": 128,
+          "lr": -4.0,
+          "regularizer": -4.0
+        },
+        "parameter_index": 0,
+        "trial_id": "KB9GD"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 21,
+        "trial_job_id": "MQkru",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8195403814315796",
+        "trial_time": "2020-07-08 18:14:24.464000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 1024,
+          "hidden_factors": 128,
+          "lr": -4.0,
+          "regularizer": -4.0
+        },
+        "parameter_index": 0,
+        "trial_id": "MQkru"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 23,
+        "trial_job_id": "pqb6T",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8218849301338196",
+        "trial_time": "2020-07-08 18:29:17.001000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 1024,
+          "hidden_factors": 128,
+          "lr": -4.0,
+          "regularizer": -4.0
+        },
+        "parameter_index": 0,
+        "trial_id": "pqb6T"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 3,
+        "trial_job_id": "Do70f",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8280311226844788",
+        "trial_time": "2020-07-08 13:32:52.325000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 1024,
+          "hidden_factors": 32,
+          "lr": -3.5548467266862547,
+          "regularizer": -4.381652266116378
+        },
+        "parameter_index": 0,
+        "trial_id": "Do70f"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 25,
+        "trial_job_id": "GNFql",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8230796456336975",
+        "trial_time": "2020-07-08 18:41:00.747000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 1024,
+          "hidden_factors": 128,
+          "lr": -4.0,
+          "regularizer": -4.0
+        },
+        "parameter_index": 0,
+        "trial_id": "GNFql"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 7,
+        "trial_job_id": "vpPWr",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8350096344947815",
+        "trial_time": "2020-07-08 17:48:57.807000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 64,
+          "hidden_factors": 128,
+          "lr": -3.672015943168171,
+          "regularizer": -4.6136549590076035
+        },
+        "parameter_index": 0,
+        "trial_id": "vpPWr"
+      },
+      {
+        "metric_id": "ME000107",
+        "parameter_id": 0,
+        "trial_job_id": "E8cQ2",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.816870927810669",
+        "trial_time": "2020-07-08 13:32:04.734000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 1024,
+          "hidden_factors": 4,
+          "lr": -2.2315773522614712,
+          "regularizer": -7.2756291742119235
+        },
+        "parameter_index": 0,
+        "trial_id": "E8cQ2"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 10,
+        "trial_job_id": "MmPrx",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7436238527297974",
+        "trial_time": "2020-07-08 18:02:10.307000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 64,
+          "hidden_factors": 4,
+          "lr": -2.113027203021293,
+          "regularizer": -4.23677252282891
+        },
+        "parameter_index": 0,
+        "trial_id": "MmPrx"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 8,
+        "trial_job_id": "r5tHE",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8245293498039246",
+        "trial_time": "2020-07-08 15:17:40.618000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 256,
+          "hidden_factors": 64,
+          "lr": -2.87488453460385,
+          "regularizer": -7.822306692792786
+        },
+        "parameter_index": 0,
+        "trial_id": "r5tHE"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 28,
+        "trial_job_id": "yyVnK",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8229846954345703",
+        "trial_time": "2020-07-08 19:05:51.757000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 1024,
+          "hidden_factors": 128,
+          "lr": -4.0,
+          "regularizer": -4.0
+        },
+        "parameter_index": 0,
+        "trial_id": "yyVnK"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 27,
+        "trial_job_id": "Stiza",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8214424848556519",
+        "trial_time": "2020-07-08 18:55:54.934000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 1024,
+          "hidden_factors": 128,
+          "lr": -4.0,
+          "regularizer": -4.0
+        },
+        "parameter_index": 0,
+        "trial_id": "Stiza"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 14,
+        "trial_job_id": "DcrgE",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8202102780342102",
+        "trial_time": "2020-07-08 16:50:40.679000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 512,
+          "hidden_factors": 128,
+          "lr": -3.9738244544378434,
+          "regularizer": -7.956981876117016
+        },
+        "parameter_index": 0,
+        "trial_id": "DcrgE"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 29,
+        "trial_job_id": "dOApe",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.820540189743042",
+        "trial_time": "2020-07-08 19:07:02.166000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 1024,
+          "hidden_factors": 128,
+          "lr": -4.0,
+          "regularizer": -4.0
+        },
+        "parameter_index": 0,
+        "trial_id": "dOApe"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 6,
+        "trial_job_id": "vEPMt",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8296957612037659",
+        "trial_time": "2020-07-08 14:27:23.631000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 256,
+          "hidden_factors": 8,
+          "lr": -3.9495564898395905,
+          "regularizer": -4.114605112004117
+        },
+        "parameter_index": 0,
+        "trial_id": "vEPMt"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 15,
+        "trial_job_id": "auEwv",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7523069977760315",
+        "trial_time": "2020-07-08 17:08:59.519000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 512,
+          "hidden_factors": 128,
+          "lr": -2.0,
+          "regularizer": -4.000000001567868
+        },
+        "parameter_index": 0,
+        "trial_id": "auEwv"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 13,
+        "trial_job_id": "gOVbY",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.821882426738739",
+        "trial_time": "2020-07-08 16:08:01.648000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 2048,
+          "hidden_factors": 128,
+          "lr": -4.0,
+          "regularizer": -4.0
+        },
+        "parameter_index": 0,
+        "trial_id": "gOVbY"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 26,
+        "trial_job_id": "JSAMY",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8200427889823914",
+        "trial_time": "2020-07-08 18:54:53.450000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 1024,
+          "hidden_factors": 128,
+          "lr": -4.0,
+          "regularizer": -4.0
+        },
+        "parameter_index": 0,
+        "trial_id": "JSAMY"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 22,
+        "trial_job_id": "Yq2g0",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8200078010559082",
+        "trial_time": "2020-07-08 18:28:43.691000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 1024,
+          "hidden_factors": 128,
+          "lr": -4.0,
+          "regularizer": -4.0
+        },
+        "parameter_index": 0,
+        "trial_id": "Yq2g0"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 20,
+        "trial_job_id": "lfJR0",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8204227089881897",
+        "trial_time": "2020-07-08 18:13:18.210000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 1024,
+          "hidden_factors": 128,
+          "lr": -4.0,
+          "regularizer": -4.0
+        },
+        "parameter_index": 0,
+        "trial_id": "lfJR0"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 18,
+        "trial_job_id": "LQPko",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8204602003097534",
+        "trial_time": "2020-07-08 17:45:55.448000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 1024,
+          "hidden_factors": 128,
+          "lr": -4.0,
+          "regularizer": -4.0
+        },
+        "parameter_index": 0,
+        "trial_id": "LQPko"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 19,
+        "trial_job_id": "Prdjq",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8219748735427856",
+        "trial_time": "2020-07-08 18:02:21.465000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 1024,
+          "hidden_factors": 128,
+          "lr": -4.0,
+          "regularizer": -4.0
+        },
+        "parameter_index": 0,
+        "trial_id": "Prdjq"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 16,
+        "trial_job_id": "VfkMb",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8208601474761963",
+        "trial_time": "2020-07-08 17:18:11.454000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 1024,
+          "hidden_factors": 128,
+          "lr": -4.0,
+          "regularizer": -4.0
+        },
+        "parameter_index": 0,
+        "trial_id": "VfkMb"
+      },
+      {
+        "metric_id": "ME000107",
+        "parameter_id": 2,
+        "trial_job_id": "aLdpt",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.753926694393158",
+        "trial_time": "2020-07-08 14:51:53",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 128,
+          "hidden_factors": 64,
+          "lr": -2.309056338262623,
+          "regularizer": -4.018720038647087
+        },
+        "parameter_index": 0,
+        "trial_id": "aLdpt"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 4,
+        "trial_job_id": "qeuCS",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8272787928581238",
+        "trial_time": "2020-07-08 15:00:48.663000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 128,
+          "hidden_factors": 8,
+          "lr": -3.9105988165044416,
+          "regularizer": -7.414375977506442
+        },
+        "parameter_index": 0,
+        "trial_id": "qeuCS"
+      },
+      {
+        "metric_id": "ME000107",
+        "parameter_id": 1,
+        "trial_job_id": "pdLIl",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.818475604057312",
+        "trial_time": "2020-07-08 13:42:22.871000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 512,
+          "hidden_factors": 4,
+          "lr": -3.3896685966017257,
+          "regularizer": -7.046252974360307
+        },
+        "parameter_index": 0,
+        "trial_id": "pdLIl"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 12,
+        "trial_job_id": "Ln1aC",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8268288373947144",
+        "trial_time": "2020-07-08 15:53:29.701000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 2048,
+          "hidden_factors": 8,
+          "lr": -3.9532405659385805,
+          "regularizer": -5.137056696060215
+        },
+        "parameter_index": 0,
+        "trial_id": "Ln1aC"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 5,
+        "trial_job_id": "Y7g5I",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8158037066459656",
+        "trial_time": "2020-07-08 13:42:52.036000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 2048,
+          "hidden_factors": 4,
+          "lr": -3.2610138106891413,
+          "regularizer": -7.35966395531296
+        },
+        "parameter_index": 0,
+        "trial_id": "Y7g5I"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 9,
+        "trial_job_id": "erX8a",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8264264464378357",
+        "trial_time": "2020-07-08 16:23:48.183000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 128,
+          "hidden_factors": 32,
+          "lr": -3.099838877339497,
+          "regularizer": -7.25164567966314
+        },
+        "parameter_index": 0,
+        "trial_id": "erX8a"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 11,
+        "trial_job_id": "Bjroa",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8187830448150635",
+        "trial_time": "2020-07-08 15:43:09.585000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 512,
+          "hidden_factors": 4,
+          "lr": -3.326712866666313,
+          "regularizer": -6.083451995807081
+        },
+        "parameter_index": 0,
+        "trial_id": "Bjroa"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 24,
+        "trial_job_id": "KxLQ4",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8224397897720337",
+        "trial_time": "2020-07-08 18:39:51.468000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 1024,
+          "hidden_factors": 128,
+          "lr": -4.0,
+          "regularizer": -4.0
+        },
+        "parameter_index": 0,
+        "trial_id": "KxLQ4"
+      }
+    ],
+    "method": "GPTuner",
+    "duration": 21033448
+  },
+  "ToTKfYZG": {
+    "trials": [
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 11,
+        "trial_job_id": "fHA5C",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8353345990180969",
+        "trial_time": "2020-07-10 14:12:30.053000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 256,
+          "regularizer": -4.9322488734551335,
+          "lr": -3.206122615848046
+        },
+        "parameter_index": 0,
+        "trial_id": "fHA5C"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 28,
+        "trial_job_id": "QGyN8",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8153887391090393",
+        "trial_time": "2020-07-10 17:21:19.299000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 512,
+          "regularizer": -5.082470739004016,
+          "lr": -2.371707969615601
+        },
+        "parameter_index": 0,
+        "trial_id": "QGyN8"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 23,
+        "trial_job_id": "lqvLz",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8167110085487366",
+        "trial_time": "2020-07-10 15:46:34.141000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 2048,
+          "regularizer": -5.770186632074088,
+          "lr": -3.139374441629304
+        },
+        "parameter_index": 0,
+        "trial_id": "lqvLz"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 0,
+        "trial_job_id": "Ms6lX",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7505598664283752",
+        "trial_time": "2020-07-10 12:26:45.626000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 64,
+          "regularizer": -4.806582685603396,
+          "lr": -2.219551146239173
+        },
+        "parameter_index": 0,
+        "trial_id": "Ms6lX"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 22,
+        "trial_job_id": "vIuIO",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8291633725166321",
+        "trial_time": "2020-07-10 15:45:03.122000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 2048,
+          "regularizer": -6.475617452820861,
+          "lr": -2.273310367871569
+        },
+        "parameter_index": 0,
+        "trial_id": "vIuIO"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 21,
+        "trial_job_id": "TVcq1",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8257265686988831",
+        "trial_time": "2020-07-10 16:53:03.041000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 128,
+          "regularizer": -6.19813762034287,
+          "lr": -3.4108628928019016
+        },
+        "parameter_index": 0,
+        "trial_id": "TVcq1"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 27,
+        "trial_job_id": "yRW2O",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8205601572990417",
+        "trial_time": "2020-07-10 17:42:11.420000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 256,
+          "regularizer": -6.150866345482093,
+          "lr": -3.9722121810503745
+        },
+        "parameter_index": 0,
+        "trial_id": "yRW2O"
+      },
+      {
+        "metric_id": "ME000107",
+        "parameter_id": 2,
+        "trial_job_id": "g2a6Y",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.761130154132843",
+        "trial_time": "2020-07-10 12:33:20.507000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 64,
+          "regularizer": -5.125684543056569,
+          "lr": -2.2498323015269435
+        },
+        "parameter_index": 0,
+        "trial_id": "g2a6Y"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 9,
+        "trial_job_id": "LTDAM",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8318303227424622",
+        "trial_time": "2020-07-10 13:02:47.858000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 512,
+          "regularizer": -4.875532648054037,
+          "lr": -2.8632304007024034
+        },
+        "parameter_index": 0,
+        "trial_id": "LTDAM"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 14,
+        "trial_job_id": "ydxBo",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.823309600353241",
+        "trial_time": "2020-07-10 14:27:54.285000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 512,
+          "regularizer": -6.174300119652715,
+          "lr": -3.4107839660137307
+        },
+        "parameter_index": 0,
+        "trial_id": "ydxBo"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 15,
+        "trial_job_id": "JLGUK",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8296882510185242",
+        "trial_time": "2020-07-10 14:20:02.451000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 1024,
+          "regularizer": -7.505465900995324,
+          "lr": -3.582439808358413
+        },
+        "parameter_index": 0,
+        "trial_id": "JLGUK"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 18,
+        "trial_job_id": "CjEho",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8202527761459351",
+        "trial_time": "2020-07-10 15:35:57.058000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 256,
+          "regularizer": -5.650124394549227,
+          "lr": -3.803162219861583
+        },
+        "parameter_index": 0,
+        "trial_id": "CjEho"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 19,
+        "trial_job_id": "bEvvI",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8291084170341492",
+        "trial_time": "2020-07-10 15:17:57.881000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 256,
+          "regularizer": -6.850760925637389,
+          "lr": -3.4721292086842004
+        },
+        "parameter_index": 0,
+        "trial_id": "bEvvI"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 29,
+        "trial_job_id": "vDfIs",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8339248895645142",
+        "trial_time": "2020-07-10 18:32:37.054000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 128,
+          "regularizer": -4.508595153338521,
+          "lr": -3.7484193015050185
+        },
+        "parameter_index": 0,
+        "trial_id": "vDfIs"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 10,
+        "trial_job_id": "TrUKw",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8200852870941162",
+        "trial_time": "2020-07-10 13:25:16.308000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 1024,
+          "regularizer": -5.6683363602740595,
+          "lr": -3.671680032817232
+        },
+        "parameter_index": 0,
+        "trial_id": "TrUKw"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 12,
+        "trial_job_id": "Zdf8t",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.817753255367279",
+        "trial_time": "2020-07-10 13:40:24.119000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 1024,
+          "regularizer": -7.966145623515676,
+          "lr": -3.2290233200443583
+        },
+        "parameter_index": 0,
+        "trial_id": "Zdf8t"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 25,
+        "trial_job_id": "BDxHs",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8266938924789429",
+        "trial_time": "2020-07-10 16:02:35.861000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 1024,
+          "regularizer": -7.121934715422979,
+          "lr": -3.2848741042701364
+        },
+        "parameter_index": 0,
+        "trial_id": "BDxHs"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 8,
+        "trial_job_id": "twelo",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8046435117721558",
+        "trial_time": "2020-07-10 13:21:20.232000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 256,
+          "regularizer": -5.476365592970092,
+          "lr": -2.275615566270896
+        },
+        "parameter_index": 0,
+        "trial_id": "twelo"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 24,
+        "trial_job_id": "dtj7E",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8294083476066589",
+        "trial_time": "2020-07-10 16:32:10.701000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 256,
+          "regularizer": -6.028155103094965,
+          "lr": -2.91432387257208
+        },
+        "parameter_index": 0,
+        "trial_id": "dtj7E"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 5,
+        "trial_job_id": "nDjkm",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8015216588973999",
+        "trial_time": "2020-07-10 14:58:58.660000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 64,
+          "regularizer": -5.503123318685577,
+          "lr": -2.4722378166769934
+        },
+        "parameter_index": 0,
+        "trial_id": "nDjkm"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 3,
+        "trial_job_id": "APMBJ",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7565786242485046",
+        "trial_time": "2020-07-10 12:34:47.811000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 64,
+          "regularizer": -4.551490676873083,
+          "lr": -2.3399888918869265
+        },
+        "parameter_index": 0,
+        "trial_id": "APMBJ"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 16,
+        "trial_job_id": "q1he5",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.826496422290802",
+        "trial_time": "2020-07-10 14:23:37.743000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 2048,
+          "regularizer": -6.432492914487627,
+          "lr": -2.626041123936975
+        },
+        "parameter_index": 0,
+        "trial_id": "q1he5"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 6,
+        "trial_job_id": "fwvz2",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8304306268692017",
+        "trial_time": "2020-07-10 12:37:08.511000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 2048,
+          "regularizer": -5.862968961708464,
+          "lr": -3.0411231946647064
+        },
+        "parameter_index": 0,
+        "trial_id": "fwvz2"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 13,
+        "trial_job_id": "yhAlS",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8215999603271484",
+        "trial_time": "2020-07-10 13:58:04.254000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 1024,
+          "regularizer": -7.907430421538028,
+          "lr": -3.7335653466414422
+        },
+        "parameter_index": 0,
+        "trial_id": "yhAlS"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 17,
+        "trial_job_id": "a5dX2",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8199703097343445",
+        "trial_time": "2020-07-10 15:29:19.411000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 256,
+          "regularizer": -7.372031796017485,
+          "lr": -3.768705257776874
+        },
+        "parameter_index": 0,
+        "trial_id": "a5dX2"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 4,
+        "trial_job_id": "aDYSg",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8154337406158447",
+        "trial_time": "2020-07-10 10:39:34.686000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 256,
+          "regularizer": -5.9986543333145,
+          "lr": -2.6778630234062244
+        },
+        "parameter_index": 0,
+        "trial_id": "aDYSg"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 20,
+        "trial_job_id": "AK9wh",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8269063234329224",
+        "trial_time": "2020-07-10 17:55:06.230000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 64,
+          "regularizer": -7.358152074450114,
+          "lr": -3.955883778190766
+        },
+        "parameter_index": 0,
+        "trial_id": "AK9wh"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 26,
+        "trial_job_id": "DBO9x",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.832780122756958",
+        "trial_time": "2020-07-10 16:50:22.982000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 256,
+          "regularizer": -5.590157260180584,
+          "lr": -2.9277161623870818
+        },
+        "parameter_index": 0,
+        "trial_id": "DBO9x"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 1,
+        "trial_job_id": "e3z8Q",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8254891633987427",
+        "trial_time": "2020-07-10 09:53:49.967000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 1024,
+          "regularizer": -4.209973508681275,
+          "lr": -3.844980451969727
+        },
+        "parameter_index": 0,
+        "trial_id": "e3z8Q"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 7,
+        "trial_job_id": "FBHVG",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8246243000030518",
+        "trial_time": "2020-07-10 14:03:11.302000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 128,
+          "regularizer": -5.144739172912589,
+          "lr": -2.99681730578836
+        },
+        "parameter_index": 0,
+        "trial_id": "FBHVG"
+      }
+    ],
+    "method": "Evolution",
+    "duration": 32134831
+  },
+  "wZVCH51D": {
+    "trials": [
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 14,
+        "trial_job_id": "ASZZt",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8184481263160706",
+        "trial_time": "2020-07-13 10:03:18.208000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 128,
+          "regularizer": -5,
+          "lr": -4
+        },
+        "parameter_index": 0,
+        "trial_id": "ASZZt"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 5,
+        "trial_job_id": "IHR3c",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8115445971488953",
+        "trial_time": "2020-07-13 07:01:25.260000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 64,
+          "regularizer": -6,
+          "lr": -3
+        },
+        "parameter_index": 0,
+        "trial_id": "IHR3c"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 16,
+        "trial_job_id": "sCOFo",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8162335753440857",
+        "trial_time": "2020-07-13 10:51:11.564000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 256,
+          "regularizer": -8,
+          "lr": -4
+        },
+        "parameter_index": 0,
+        "trial_id": "sCOFo"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 21,
+        "trial_job_id": "xO12s",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8187030553817749",
+        "trial_time": "2020-07-13 11:40:16.202000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 256,
+          "regularizer": -6,
+          "lr": -3
+        },
+        "parameter_index": 0,
+        "trial_id": "xO12s"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 7,
+        "trial_job_id": "SfHhZ",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8078828454017639",
+        "trial_time": "2020-07-13 07:02:49.445000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 64,
+          "regularizer": -5,
+          "lr": -3
+        },
+        "parameter_index": 0,
+        "trial_id": "SfHhZ"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 9,
+        "trial_job_id": "PlM2L",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8155112266540527",
+        "trial_time": "2020-07-13 08:32:49.562000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 128,
+          "regularizer": -8,
+          "lr": -3
+        },
+        "parameter_index": 0,
+        "trial_id": "PlM2L"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 1,
+        "trial_job_id": "QMyh4",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8087401390075684",
+        "trial_time": "2020-07-13 04:00:46.687000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 64,
+          "regularizer": -8,
+          "lr": -3
+        },
+        "parameter_index": 0,
+        "trial_id": "QMyh4"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 24,
+        "trial_job_id": "ML9Vp",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8166884779930115",
+        "trial_time": "2020-07-13 12:06:30.325000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 512,
+          "regularizer": -8,
+          "lr": -4
+        },
+        "parameter_index": 0,
+        "trial_id": "ML9Vp"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 22,
+        "trial_job_id": "Tf07a",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8158111572265625",
+        "trial_time": "2020-07-13 11:40:58.330000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 256,
+          "regularizer": -5,
+          "lr": -4
+        },
+        "parameter_index": 0,
+        "trial_id": "Tf07a"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 0,
+        "trial_job_id": "EAtLk",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8141465187072754",
+        "trial_time": "2020-07-13 04:00:41.761000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 64,
+          "regularizer": -8,
+          "lr": -4
+        },
+        "parameter_index": 0,
+        "trial_id": "EAtLk"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 19,
+        "trial_job_id": "wtPpg",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8160911202430725",
+        "trial_time": "2020-07-13 10:52:20.760000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 256,
+          "regularizer": -7,
+          "lr": -3
+        },
+        "parameter_index": 0,
+        "trial_id": "wtPpg"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 2,
+        "trial_job_id": "UZGZg",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8069555163383484",
+        "trial_time": "2020-07-13 04:04:45.043000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 64,
+          "regularizer": -7,
+          "lr": -4
+        },
+        "parameter_index": 0,
+        "trial_id": "UZGZg"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 18,
+        "trial_job_id": "QrLUL",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8182681798934937",
+        "trial_time": "2020-07-13 10:52:48.624000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 256,
+          "regularizer": -7,
+          "lr": -4
+        },
+        "parameter_index": 0,
+        "trial_id": "QrLUL"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 28,
+        "trial_job_id": "VdMLu",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8112321496009827",
+        "trial_time": "2020-07-13 12:35:25.990000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 512,
+          "regularizer": -6,
+          "lr": -4
+        },
+        "parameter_index": 0,
+        "trial_id": "VdMLu"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 25,
+        "trial_job_id": "h1J7x",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8174483180046082",
+        "trial_time": "2020-07-13 12:07:02.355000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 512,
+          "regularizer": -8,
+          "lr": -3
+        },
+        "parameter_index": 0,
+        "trial_id": "h1J7x"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 10,
+        "trial_job_id": "NEdxc",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.817173421382904",
+        "trial_time": "2020-07-13 08:32:36.190000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 128,
+          "regularizer": -7,
+          "lr": -4
+        },
+        "parameter_index": 0,
+        "trial_id": "NEdxc"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 8,
+        "trial_job_id": "LBNS1",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8136416077613831",
+        "trial_time": "2020-07-13 08:32:11.011000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 128,
+          "regularizer": -8,
+          "lr": -4
+        },
+        "parameter_index": 0,
+        "trial_id": "LBNS1"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 29,
+        "trial_job_id": "FKj4z",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.817103385925293",
+        "trial_time": "2020-07-13 12:35:53.249000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 512,
+          "regularizer": -6,
+          "lr": -3
+        },
+        "parameter_index": 0,
+        "trial_id": "FKj4z"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 23,
+        "trial_job_id": "djGxH",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8150913119316101",
+        "trial_time": "2020-07-13 11:41:00.274000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 256,
+          "regularizer": -5,
+          "lr": -3
+        },
+        "parameter_index": 0,
+        "trial_id": "djGxH"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 4,
+        "trial_job_id": "is5WL",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8177058100700378",
+        "trial_time": "2020-07-13 07:01:13.210000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 64,
+          "regularizer": -6,
+          "lr": -4
+        },
+        "parameter_index": 0,
+        "trial_id": "is5WL"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 17,
+        "trial_job_id": "B45gX",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8170509338378906",
+        "trial_time": "2020-07-13 10:52:36.138000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 256,
+          "regularizer": -8,
+          "lr": -3
+        },
+        "parameter_index": 0,
+        "trial_id": "B45gX"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 13,
+        "trial_job_id": "MFA1N",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.816196084022522",
+        "trial_time": "2020-07-13 10:03:43.598000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 128,
+          "regularizer": -6,
+          "lr": -3
+        },
+        "parameter_index": 0,
+        "trial_id": "MFA1N"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 26,
+        "trial_job_id": "oC9NY",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8168309926986694",
+        "trial_time": "2020-07-13 12:07:38.409000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 512,
+          "regularizer": -7,
+          "lr": -4
+        },
+        "parameter_index": 0,
+        "trial_id": "oC9NY"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 27,
+        "trial_job_id": "RSNQ7",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8178932666778564",
+        "trial_time": "2020-07-13 12:07:32.414000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 512,
+          "regularizer": -7,
+          "lr": -3
+        },
+        "parameter_index": 0,
+        "trial_id": "RSNQ7"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 12,
+        "trial_job_id": "jyxf2",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8158437013626099",
+        "trial_time": "2020-07-13 10:03:54.446000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 128,
+          "regularizer": -6,
+          "lr": -4
+        },
+        "parameter_index": 0,
+        "trial_id": "jyxf2"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 15,
+        "trial_job_id": "EVlYD",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8114296197891235",
+        "trial_time": "2020-07-13 10:04:21.048000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 128,
+          "regularizer": -5,
+          "lr": -3
+        },
+        "parameter_index": 0,
+        "trial_id": "EVlYD"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 3,
+        "trial_job_id": "LoZSi",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8134541511535645",
+        "trial_time": "2020-07-13 04:03:30.345000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 64,
+          "regularizer": -7,
+          "lr": -3
+        },
+        "parameter_index": 0,
+        "trial_id": "LoZSi"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 6,
+        "trial_job_id": "tlxsg",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8155837059020996",
+        "trial_time": "2020-07-13 07:01:25.958000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 64,
+          "regularizer": -5,
+          "lr": -4
+        },
+        "parameter_index": 0,
+        "trial_id": "tlxsg"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 20,
+        "trial_job_id": "MHjqK",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8166735172271729",
+        "trial_time": "2020-07-13 11:39:46.508000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 256,
+          "regularizer": -6,
+          "lr": -4
+        },
+        "parameter_index": 0,
+        "trial_id": "MHjqK"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 11,
+        "trial_job_id": "GnkNz",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8162536025047302",
+        "trial_time": "2020-07-13 08:32:30.027000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 128,
+          "regularizer": -7,
+          "lr": -3
+        },
+        "parameter_index": 0,
+        "trial_id": "GnkNz"
+      }
+    ],
+    "method": "BatchTuner",
+    "duration": 41476485
+  },
+  "zgNIwuIH": {
+    "trials": [
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 20,
+        "trial_job_id": "dWslA",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8324502110481262",
+        "trial_time": "2020-07-12 23:03:58.730000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 128,
+          "regularizer": -5.377239578065785,
+          "lr": -3.0250203513114844
+        },
+        "parameter_index": 0,
+        "trial_id": "dWslA"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 6,
+        "trial_job_id": "cUPFm",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8203827142715454",
+        "trial_time": "2020-07-12 15:45:06.215000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 1024,
+          "regularizer": -4.937608666328081,
+          "lr": -3.9980482280453264
+        },
+        "parameter_index": 0,
+        "trial_id": "cUPFm"
+      },
+      {
+        "metric_id": "ME000107",
+        "parameter_id": 8,
+        "trial_job_id": "TJOgj",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.823619544506073",
+        "trial_time": "2020-07-12 17:45:16.054000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 256,
+          "regularizer": -5.438924691080461,
+          "lr": -3.7678315918088465
+        },
+        "parameter_index": 0,
+        "trial_id": "TJOgj"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 12,
+        "trial_job_id": "dj7v4",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8181456923484802",
+        "trial_time": "2020-07-12 17:55:58.873000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 2048,
+          "regularizer": -7.891500929193218,
+          "lr": -2.7190152711768114
+        },
+        "parameter_index": 0,
+        "trial_id": "dj7v4"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 29,
+        "trial_job_id": "oLLM8",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8136566281318665",
+        "trial_time": "2020-07-13 01:00:48.379000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 128,
+          "regularizer": -4.92180231063168,
+          "lr": -3.1308148308485255
+        },
+        "parameter_index": 0,
+        "trial_id": "oLLM8"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 23,
+        "trial_job_id": "YpSbt",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8286259770393372",
+        "trial_time": "2020-07-12 23:04:27.290000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 256,
+          "regularizer": -7.165671245714758,
+          "lr": -3.049122155516459
+        },
+        "parameter_index": 0,
+        "trial_id": "YpSbt"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 22,
+        "trial_job_id": "t0tf2",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8147963881492615",
+        "trial_time": "2020-07-12 22:22:41.650000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 2048,
+          "regularizer": -6.879530095888396,
+          "lr": -3.6033760734444913
+        },
+        "parameter_index": 0,
+        "trial_id": "t0tf2"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 4,
+        "trial_job_id": "ybIuh",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8277761936187744",
+        "trial_time": "2020-07-12 17:37:02.618000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 64,
+          "regularizer": -7.222800422195973,
+          "lr": -3.0177842894875626
+        },
+        "parameter_index": 0,
+        "trial_id": "ybIuh"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 0,
+        "trial_job_id": "K4kLH",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8335074782371521",
+        "trial_time": "2020-07-12 17:10:45.553000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 64,
+          "regularizer": -4.299036688111989,
+          "lr": -3.6335284446357443
+        },
+        "parameter_index": 0,
+        "trial_id": "K4kLH"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 26,
+        "trial_job_id": "uQEbr",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8264514207839966",
+        "trial_time": "2020-07-12 23:16:00.504000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 2048,
+          "regularizer": -5.789291766235339,
+          "lr": -3.442040629578832
+        },
+        "parameter_index": 0,
+        "trial_id": "uQEbr"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 9,
+        "trial_job_id": "eUGJw",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8213450312614441",
+        "trial_time": "2020-07-12 19:06:37.054000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 128,
+          "regularizer": -6.452364949071876,
+          "lr": -3.894965675620013
+        },
+        "parameter_index": 0,
+        "trial_id": "eUGJw"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 24,
+        "trial_job_id": "K3QYh",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8216599225997925",
+        "trial_time": "2020-07-12 23:10:58.765000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 256,
+          "regularizer": -5.9603742799494475,
+          "lr": -2.194644594767764
+        },
+        "parameter_index": 0,
+        "trial_id": "K3QYh"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 27,
+        "trial_job_id": "jmCnQ",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8212300539016724",
+        "trial_time": "2020-07-12 23:17:55.959000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 2048,
+          "regularizer": -5.878336994523718,
+          "lr": -3.6510010471833465
+        },
+        "parameter_index": 0,
+        "trial_id": "jmCnQ"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 3,
+        "trial_job_id": "kwhLc",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8209025859832764",
+        "trial_time": "2020-07-12 15:18:29.637000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 256,
+          "regularizer": -6.859899993156504,
+          "lr": -3.6532120176240714
+        },
+        "parameter_index": 0,
+        "trial_id": "kwhLc"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 1,
+        "trial_job_id": "pu8pT",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8239019513130188",
+        "trial_time": "2020-07-12 15:26:03.258000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 256,
+          "regularizer": -5.671608403511726,
+          "lr": -2.408440246746869
+        },
+        "parameter_index": 0,
+        "trial_id": "pu8pT"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 16,
+        "trial_job_id": "HfKJL",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8200027942657471",
+        "trial_time": "2020-07-12 21:23:41.755000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 2048,
+          "regularizer": -4.817778805779665,
+          "lr": -2.5523226135772115
+        },
+        "parameter_index": 0,
+        "trial_id": "HfKJL"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 21,
+        "trial_job_id": "Hv7Qs",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8284610509872437",
+        "trial_time": "2020-07-12 22:11:11.960000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 2048,
+          "regularizer": -7.0995892122992545,
+          "lr": -2.8542768576641198
+        },
+        "parameter_index": 0,
+        "trial_id": "Hv7Qs"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 7,
+        "trial_job_id": "eMc4g",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8281285762786865",
+        "trial_time": "2020-07-12 16:31:57.713000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 256,
+          "regularizer": -5.2786818443511825,
+          "lr": -3.4761394915690618
+        },
+        "parameter_index": 0,
+        "trial_id": "eMc4g"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 2,
+        "trial_job_id": "sdDyq",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8271362781524658",
+        "trial_time": "2020-07-12 14:39:51.598000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 512,
+          "regularizer": -6.8082464826479505,
+          "lr": -2.515077988643624
+        },
+        "parameter_index": 0,
+        "trial_id": "sdDyq"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 18,
+        "trial_job_id": "sjnmy",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8288634419441223",
+        "trial_time": "2020-07-12 22:53:06.036000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 128,
+          "regularizer": -5.856527740191202,
+          "lr": -3.482508196736644
+        },
+        "parameter_index": 0,
+        "trial_id": "sjnmy"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 17,
+        "trial_job_id": "FVFtH",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8280586004257202",
+        "trial_time": "2020-07-12 21:33:31.770000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 1024,
+          "regularizer": -5.130410265191935,
+          "lr": -2.6568330464482317
+        },
+        "parameter_index": 0,
+        "trial_id": "FVFtH"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 5,
+        "trial_job_id": "sqNUW",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7588556408882141",
+        "trial_time": "2020-07-12 16:44:54.821000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 128,
+          "regularizer": -4.857467041000007,
+          "lr": -2.077128543917082
+        },
+        "parameter_index": 0,
+        "trial_id": "sqNUW"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 28,
+        "trial_job_id": "vN9CE",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8015216588973999",
+        "trial_time": "2020-07-12 23:54:01.436000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 512,
+          "regularizer": -5.067962596110606,
+          "lr": -2.179559644522043
+        },
+        "parameter_index": 0,
+        "trial_id": "vN9CE"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 14,
+        "trial_job_id": "wEy8Y",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8349421620368958",
+        "trial_time": "2020-07-12 21:16:18.505000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 64,
+          "regularizer": -4.384386114333922,
+          "lr": -3.6431816023529477
+        },
+        "parameter_index": 0,
+        "trial_id": "wEy8Y"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 19,
+        "trial_job_id": "F2onK",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8301506638526917",
+        "trial_time": "2020-07-12 21:59:55.166000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 512,
+          "regularizer": -6.568445451808363,
+          "lr": -3.7423806258072405
+        },
+        "parameter_index": 0,
+        "trial_id": "F2onK"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 11,
+        "trial_job_id": "U9DJ0",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8289034366607666",
+        "trial_time": "2020-07-12 18:04:43.616000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 512,
+          "regularizer": -7.23435785189254,
+          "lr": -2.651393502035731
+        },
+        "parameter_index": 0,
+        "trial_id": "U9DJ0"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 15,
+        "trial_job_id": "oxI5V",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8334149718284607",
+        "trial_time": "2020-07-12 22:16:47.396000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 64,
+          "regularizer": -4.299036909497948,
+          "lr": -3.633529225632401
+        },
+        "parameter_index": 0,
+        "trial_id": "oxI5V"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 13,
+        "trial_job_id": "Hx35N",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8333724737167358",
+        "trial_time": "2020-07-12 21:07:00.793000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 64,
+          "regularizer": -4.299035982003812,
+          "lr": -3.6335285467626566
+        },
+        "parameter_index": 0,
+        "trial_id": "Hx35N"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 25,
+        "trial_job_id": "mzBsG",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8169034719467163",
+        "trial_time": "2020-07-12 23:20:58.235000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 512,
+          "regularizer": -5.121836941080701,
+          "lr": -3.1583248602815273
+        },
+        "parameter_index": 0,
+        "trial_id": "mzBsG"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 10,
+        "trial_job_id": "xhMob",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8281785845756531",
+        "trial_time": "2020-07-12 21:34:17.652000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 64,
+          "regularizer": -7.507058600984367,
+          "lr": -2.2988111465781946
+        },
+        "parameter_index": 0,
+        "trial_id": "xhMob"
+      }
+    ],
+    "method": "MetisTuner",
+    "duration": 39137956
+  },
+  "kED1A1n8": {
+    "trials": [
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 11,
+        "trial_job_id": "UNPCc",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7519121170043945",
+        "trial_time": "2020-07-11 06:36:29.340000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -2.0,
+          "regularizer": -5.0,
+          "batch": 64,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "UNPCc"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 26,
+        "trial_job_id": "hJtpA",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7459333539009094",
+        "trial_time": "2020-07-11 14:06:18.724000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -2.0,
+          "regularizer": -5.0,
+          "batch": 128,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "hJtpA"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 5,
+        "trial_job_id": "gRpLK",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7952204942703247",
+        "trial_time": "2020-07-11 03:36:26.143000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -2.0,
+          "regularizer": -7.0,
+          "batch": 64,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "gRpLK"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 14,
+        "trial_job_id": "GOjG8",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7447586059570312",
+        "trial_time": "2020-07-11 09:33:47.936000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -2.0,
+          "regularizer": -4.0,
+          "batch": 64,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "GOjG8"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 2,
+        "trial_job_id": "ojdmS",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7994571328163147",
+        "trial_time": "2020-07-11 00:41:05.021000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -2.0,
+          "regularizer": -8.0,
+          "batch": 64,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "ojdmS"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 29,
+        "trial_job_id": "uzv2f",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7484627962112427",
+        "trial_time": "2020-07-11 15:48:01.710000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -2.0,
+          "regularizer": -4.0,
+          "batch": 128,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "uzv2f"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 13,
+        "trial_job_id": "ZFgvc",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7916987538337708",
+        "trial_time": "2020-07-11 09:30:18.331000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -3.0,
+          "regularizer": -4.0,
+          "batch": 64,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "ZFgvc"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 21,
+        "trial_job_id": "aKDuS",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8169459700584412",
+        "trial_time": "2020-07-11 12:31:27.105000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -4.0,
+          "regularizer": -6.0,
+          "batch": 128,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "aKDuS"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 28,
+        "trial_job_id": "HRFZI",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7960827946662903",
+        "trial_time": "2020-07-11 14:15:39.076000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -3.0,
+          "regularizer": -4.0,
+          "batch": 128,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "HRFZI"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 10,
+        "trial_job_id": "EzPWq",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.807942807674408",
+        "trial_time": "2020-07-11 06:35:37.550000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -3.0,
+          "regularizer": -5.0,
+          "batch": 64,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "EzPWq"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 3,
+        "trial_job_id": "pwVVu",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8122719526290894",
+        "trial_time": "2020-07-11 00:39:53.554000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -4.0,
+          "regularizer": -7.0,
+          "batch": 64,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "pwVVu"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 19,
+        "trial_job_id": "IdP5W",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8153162598609924",
+        "trial_time": "2020-07-11 11:06:25.638000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -3.0,
+          "regularizer": -7.0,
+          "batch": 128,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "IdP5W"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 0,
+        "trial_job_id": "pcEF4",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8128418326377869",
+        "trial_time": "2020-07-11 00:40:19.368000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -4.0,
+          "regularizer": -8.0,
+          "batch": 64,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "pcEF4"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 12,
+        "trial_job_id": "uR0he",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.813706636428833",
+        "trial_time": "2020-07-11 09:32:14.011000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -4.0,
+          "regularizer": -4.0,
+          "batch": 64,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "uR0he"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 23,
+        "trial_job_id": "S4FEc",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7937808036804199",
+        "trial_time": "2020-07-11 12:37:43.503000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -2.0,
+          "regularizer": -6.0,
+          "batch": 128,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "S4FEc"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 25,
+        "trial_job_id": "H6OOX",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8122794032096863",
+        "trial_time": "2020-07-11 14:03:19.604000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -3.0,
+          "regularizer": -5.0,
+          "batch": 128,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "H6OOX"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 20,
+        "trial_job_id": "Bg7YB",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.809952437877655",
+        "trial_time": "2020-07-11 11:12:12.003000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -2.0,
+          "regularizer": -7.0,
+          "batch": 128,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "Bg7YB"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 15,
+        "trial_job_id": "UAFrb",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8176258206367493",
+        "trial_time": "2020-07-11 08:08:38.075000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -4.0,
+          "regularizer": -8.0,
+          "batch": 128,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "UAFrb"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 17,
+        "trial_job_id": "t2Ns8",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.809237539768219",
+        "trial_time": "2020-07-11 11:01:05.018000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -2.0,
+          "regularizer": -8.0,
+          "batch": 128,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "t2Ns8"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 16,
+        "trial_job_id": "cK0Oi",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8177957534790039",
+        "trial_time": "2020-07-11 09:40:21.695000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -3.0,
+          "regularizer": -8.0,
+          "batch": 128,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "cK0Oi"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 6,
+        "trial_job_id": "L9kAp",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8140365481376648",
+        "trial_time": "2020-07-11 03:38:39.746000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -4.0,
+          "regularizer": -6.0,
+          "batch": 64,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "L9kAp"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 1,
+        "trial_job_id": "ees9x",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8104073405265808",
+        "trial_time": "2020-07-11 00:40:29.321000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -3.0,
+          "regularizer": -8.0,
+          "batch": 64,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "ees9x"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 9,
+        "trial_job_id": "wah2v",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8098774552345276",
+        "trial_time": "2020-07-11 06:32:09.581000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -4.0,
+          "regularizer": -5.0,
+          "batch": 64,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "wah2v"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 18,
+        "trial_job_id": "DIzQB",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8151913285255432",
+        "trial_time": "2020-07-11 11:02:47.585000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -4.0,
+          "regularizer": -7.0,
+          "batch": 128,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "DIzQB"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 22,
+        "trial_job_id": "FyNwh",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8170109391212463",
+        "trial_time": "2020-07-11 12:35:08.248000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -3.0,
+          "regularizer": -6.0,
+          "batch": 128,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "FyNwh"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 7,
+        "trial_job_id": "RzXzu",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8108822107315063",
+        "trial_time": "2020-07-11 03:36:18.927000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -3.0,
+          "regularizer": -6.0,
+          "batch": 64,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "RzXzu"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 27,
+        "trial_job_id": "MUnws",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8163485527038574",
+        "trial_time": "2020-07-11 14:09:01.834000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -4.0,
+          "regularizer": -4.0,
+          "batch": 128,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "MUnws"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 4,
+        "trial_job_id": "OYyu8",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8141990303993225",
+        "trial_time": "2020-07-11 03:39:12.662000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -3.0,
+          "regularizer": -7.0,
+          "batch": 64,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "OYyu8"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 24,
+        "trial_job_id": "HX6Ha",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8149688839912415",
+        "trial_time": "2020-07-11 12:42:51.255000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -4.0,
+          "regularizer": -5.0,
+          "batch": 128,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "HX6Ha"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 8,
+        "trial_job_id": "kmZ8Q",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7819733023643494",
+        "trial_time": "2020-07-11 06:33:32.258000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "lr": -2.0,
+          "regularizer": -6.0,
+          "batch": 64,
+          "hidden_factors": 4
+        },
+        "parameter_index": 0,
+        "trial_id": "kmZ8Q"
+      }
+    ],
+    "method": "GridSearch",
+    "duration": 65119017
+  },
+  "nf9w817I": {
+    "trials": [
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_0",
+        "trial_job_id": "wjCOF",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8209500908851624",
+        "trial_time": "2020-07-08 22:21:41.118000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 1024,
+          "hidden_factors": 64,
+          "lr": -3.9375507775657566,
+          "regularizer": -6.386720852471242,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "wjCOF"
+      },
+      {
+        "metric_id": "ME000113",
+        "parameter_id": "3_0_5",
+        "trial_job_id": "NwOoB",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.827606201171875",
+        "trial_time": "2020-07-08 22:41:01.466000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 2048,
+          "hidden_factors": 32,
+          "lr": -2.6003020078242822,
+          "regularizer": -5.534381195421413,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "NwOoB"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_26",
+        "trial_job_id": "NaqBc",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8196503520011902",
+        "trial_time": "2020-07-09 04:53:23.644000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 1024,
+          "hidden_factors": 128,
+          "lr": -3.9937728272644177,
+          "regularizer": -4.568674640178653,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "NaqBc"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_25",
+        "trial_job_id": "h6pN5",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8296157717704773",
+        "trial_time": "2020-07-09 08:12:17.117000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 64,
+          "hidden_factors": 128,
+          "lr": -3.0514778668783666,
+          "regularizer": -5.527430556264591,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "h6pN5"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_15",
+        "trial_job_id": "E1zlC",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.816690981388092",
+        "trial_time": "2020-07-09 01:19:34.448000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 512,
+          "hidden_factors": 4,
+          "lr": -2.687093663955344,
+          "regularizer": -5.4853444776904166,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "E1zlC"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_1",
+        "trial_job_id": "m2GdJ",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8118495345115662",
+        "trial_time": "2020-07-09 00:53:43.459000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 64,
+          "hidden_factors": 16,
+          "lr": -2.5448752231223053,
+          "regularizer": -5.575517211302584,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "m2GdJ"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_17",
+        "trial_job_id": "unvvn",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8310479521751404",
+        "trial_time": "2020-07-09 02:52:59.545000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 128,
+          "hidden_factors": 32,
+          "lr": -3.9560032024437177,
+          "regularizer": -4.620119608875767,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "unvvn"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_7",
+        "trial_job_id": "EJ4Lt",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8200528025627136",
+        "trial_time": "2020-07-08 22:56:05.881000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 2048,
+          "hidden_factors": 128,
+          "lr": -3.5415018381701513,
+          "regularizer": -7.858616802393055,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "EJ4Lt"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_13",
+        "trial_job_id": "hFFBb",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8014466762542725",
+        "trial_time": "2020-07-09 02:02:42.032000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 128,
+          "hidden_factors": 64,
+          "lr": -2.2136559175497386,
+          "regularizer": -5.604114479455754,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "hFFBb"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_10",
+        "trial_job_id": "I0M8I",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8307955265045166",
+        "trial_time": "2020-07-09 01:12:00.893000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 128,
+          "hidden_factors": 16,
+          "lr": -2.3460587089242058,
+          "regularizer": -7.397422486834609,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "I0M8I"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_9",
+        "trial_job_id": "hol9G",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8235495686531067",
+        "trial_time": "2020-07-08 23:45:35.797000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 2048,
+          "hidden_factors": 64,
+          "lr": -3.7341897275760534,
+          "regularizer": -4.077877852378279,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "hol9G"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_3",
+        "trial_job_id": "dRrgD",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8277886509895325",
+        "trial_time": "2020-07-08 22:30:06.837000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 512,
+          "hidden_factors": 8,
+          "lr": -2.411461545401294,
+          "regularizer": -7.16595738039914,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "dRrgD"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_4",
+        "trial_job_id": "KBepv",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8280686140060425",
+        "trial_time": "2020-07-08 22:36:55.567000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 1024,
+          "hidden_factors": 8,
+          "lr": -3.0442869309734935,
+          "regularizer": -7.615882815404034,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "KBepv"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_16",
+        "trial_job_id": "hwOGF",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.776371955871582",
+        "trial_time": "2020-07-09 01:38:07.752000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 512,
+          "hidden_factors": 16,
+          "lr": -2.226664919639739,
+          "regularizer": -4.058190743442304,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "hwOGF"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_12",
+        "trial_job_id": "j0NA6",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.778186559677124",
+        "trial_time": "2020-07-09 00:49:30.105000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 256,
+          "hidden_factors": 32,
+          "lr": -2.045284351275108,
+          "regularizer": -5.181353601481914,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "j0NA6"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_1_17",
+        "trial_job_id": "lMntd",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8308780193328857",
+        "trial_time": "2020-07-09 09:42:33.719000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 128,
+          "hidden_factors": 32,
+          "lr": -3.9560032024437177,
+          "regularizer": -4.620119608875767,
+          "TRIAL_BUDGET": 3
+        },
+        "trial_id": "lMntd"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_18",
+        "trial_job_id": "aAk9e",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7621574401855469",
+        "trial_time": "2020-07-09 04:25:03.682000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 64,
+          "hidden_factors": 32,
+          "lr": -2.2829376464748585,
+          "regularizer": -4.914293400921616,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "aAk9e"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_2",
+        "trial_job_id": "o9ZZ6",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8290058970451355",
+        "trial_time": "2020-07-08 23:33:42.332000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 128,
+          "hidden_factors": 16,
+          "lr": -2.3841081302330593,
+          "regularizer": -6.431967851740373,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "o9ZZ6"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_24",
+        "trial_job_id": "YIVoi",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8295407891273499",
+        "trial_time": "2020-07-09 04:31:04.588000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 256,
+          "hidden_factors": 8,
+          "lr": -3.8526165496928115,
+          "regularizer": -6.880281174275405,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "YIVoi"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_1_10",
+        "trial_job_id": "S14te",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8308255076408386",
+        "trial_time": "2020-07-09 09:40:33.176000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 128,
+          "hidden_factors": 16,
+          "lr": -2.3460587089242058,
+          "regularizer": -7.397422486834609,
+          "TRIAL_BUDGET": 3
+        },
+        "trial_id": "S14te"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_19",
+        "trial_job_id": "zyKMI",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7727402448654175",
+        "trial_time": "2020-07-09 05:41:36.592000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 64,
+          "hidden_factors": 128,
+          "lr": -2.252490428346543,
+          "regularizer": -5.460928279048085,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "zyKMI"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_11",
+        "trial_job_id": "DOMeC",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8252941966056824",
+        "trial_time": "2020-07-09 00:31:59.825000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 256,
+          "hidden_factors": 16,
+          "lr": -2.9390878413749473,
+          "regularizer": -7.435055412996132,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "DOMeC"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_20",
+        "trial_job_id": "tJyiA",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8295657634735107",
+        "trial_time": "2020-07-09 02:19:40.030000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 1024,
+          "hidden_factors": 32,
+          "lr": -3.3199626296777187,
+          "regularizer": -4.716681092701323,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "tJyiA"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_1_25",
+        "trial_job_id": "tPKuT",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8285834789276123",
+        "trial_time": "2020-07-09 12:32:05.493000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 64,
+          "hidden_factors": 128,
+          "lr": -3.0514778668783666,
+          "regularizer": -5.527430556264591,
+          "TRIAL_BUDGET": 3
+        },
+        "trial_id": "tPKuT"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_21",
+        "trial_job_id": "Tgqma",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8266364336013794",
+        "trial_time": "2020-07-09 03:25:36.914000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 256,
+          "hidden_factors": 128,
+          "lr": -3.3459892474409036,
+          "regularizer": -6.461312040534416,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "Tgqma"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_14",
+        "trial_job_id": "uscBs",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8264014720916748",
+        "trial_time": "2020-07-09 01:17:23.616000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 512,
+          "hidden_factors": 64,
+          "lr": -2.4215775681308864,
+          "regularizer": -6.201397926528392,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "uscBs"
+      },
+      {
+        "metric_id": "ME000113",
+        "parameter_id": "3_0_6",
+        "trial_job_id": "a63BY",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.815676212310791",
+        "trial_time": "2020-07-09 00:03:01.602000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 128,
+          "hidden_factors": 4,
+          "lr": -2.602375352108143,
+          "regularizer": -6.69082606229151,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "a63BY"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_22",
+        "trial_job_id": "cZYQq",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8166035413742065",
+        "trial_time": "2020-07-09 03:41:52.713000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 256,
+          "hidden_factors": 4,
+          "lr": -3.8730884374572936,
+          "regularizer": -7.987903879922336,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "cZYQq"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_8",
+        "trial_job_id": "E1yVz",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8181982040405273",
+        "trial_time": "2020-07-08 23:43:51.049000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 256,
+          "hidden_factors": 32,
+          "lr": -2.6554806202526797,
+          "regularizer": -4.816429421357833,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "E1yVz"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_23",
+        "trial_job_id": "EG2Te",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7980374097824097",
+        "trial_time": "2020-07-09 04:02:06.588000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "batch": 512,
+          "hidden_factors": 128,
+          "lr": -2.3137774328352174,
+          "regularizer": -4.666423231062238,
+          "TRIAL_BUDGET": 1
+        },
+        "trial_id": "EG2Te"
+      }
+    ],
+    "method": "BOHB",
+    "duration": 52123201
+  },
+  "ZQFbgB2e": {
+    "trials": [
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 10,
+        "trial_job_id": "ivvmT",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8073729276657104",
+        "trial_time": "2020-07-12 08:17:35.724000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 64,
+          "regularizer": -4.251846473529242,
+          "lr": -3.1090821312927366,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/6/0",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/6/1"
+        },
+        "parameter_index": 0,
+        "trial_id": "ivvmT"
+      },
+      {
+        "metric_id": "ME000106",
+        "parameter_id": 4,
+        "trial_job_id": "AtRM0",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.82874596118927",
+        "trial_time": "2020-07-12 01:11:22.881000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 512,
+          "regularizer": -7.025747448521613,
+          "lr": -2.376525401920416,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/4/0",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/4/0"
+        },
+        "parameter_index": 0,
+        "trial_id": "AtRM0"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 1,
+        "trial_job_id": "ACgqf",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8185855746269226",
+        "trial_time": "2020-07-12 01:51:53.388000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 128,
+          "regularizer": -6.323032900900301,
+          "lr": -3.5084332605967097,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/1/0",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/1/0"
+        },
+        "parameter_index": 0,
+        "trial_id": "ACgqf"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 16,
+        "trial_job_id": "Gcu9Q",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8249842524528503",
+        "trial_time": "2020-07-12 06:50:47.389000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 1024,
+          "regularizer": -6.105540140806434,
+          "lr": -3.0524211908699854,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/3/0",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/3/1"
+        },
+        "parameter_index": 0,
+        "trial_id": "Gcu9Q"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 7,
+        "trial_job_id": "zidsj",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8195003867149353",
+        "trial_time": "2020-07-12 02:16:01.353000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 1024,
+          "regularizer": -6.096558113379205,
+          "lr": -3.759356465957956,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/7/0",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/7/0"
+        },
+        "parameter_index": 0,
+        "trial_id": "zidsj"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 28,
+        "trial_job_id": "Ysgao",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8291658759117126",
+        "trial_time": "2020-07-12 10:59:13.228000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 1024,
+          "regularizer": -4.0684634613435104,
+          "lr": -3.457483604073743,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/5/1",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/5/2"
+        },
+        "parameter_index": 0,
+        "trial_id": "Ysgao"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 11,
+        "trial_job_id": "nDR3W",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.828118622303009",
+        "trial_time": "2020-07-12 06:05:59.954000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 256,
+          "regularizer": -7.8257474485216125,
+          "lr": -2,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/4/0",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/2/1"
+        },
+        "parameter_index": 0,
+        "trial_id": "nDR3W"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 20,
+        "trial_job_id": "bdYEZ",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.817675769329071",
+        "trial_time": "2020-07-12 11:34:42.347000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 128,
+          "regularizer": -6.323032900900301,
+          "lr": -3.5084332605967097,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/1/1",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/1/2"
+        },
+        "parameter_index": 0,
+        "trial_id": "bdYEZ"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 22,
+        "trial_job_id": "uRcUe",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8339848518371582",
+        "trial_time": "2020-07-12 10:20:19.738000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 1024,
+          "regularizer": -5.324707354589991,
+          "lr": -2.562219327338326,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/8/1",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/0/2"
+        },
+        "parameter_index": 0,
+        "trial_id": "uRcUe"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 5,
+        "trial_job_id": "SHANz",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8294358253479004",
+        "trial_time": "2020-07-12 01:26:55.608000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 1024,
+          "regularizer": -4.0684634613435104,
+          "lr": -3.457483604073743,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/5/0",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/5/0"
+        },
+        "parameter_index": 0,
+        "trial_id": "SHANz"
+      },
+      {
+        "metric_id": "ME000107",
+        "parameter_id": 9,
+        "trial_job_id": "xRGSA",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.827916145324707",
+        "trial_time": "2020-07-12 05:18:32.932000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 64,
+          "regularizer": -6.4746439671870375,
+          "lr": -3.7894266225039623,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/9/0",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/9/0"
+        },
+        "parameter_index": 0,
+        "trial_id": "xRGSA"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 21,
+        "trial_job_id": "Sjebj",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8265964388847351",
+        "trial_time": "2020-07-12 10:13:29.191000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 2048,
+          "regularizer": -6.924707354589991,
+          "lr": -2.562219327338326,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/8/1",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/6/2"
+        },
+        "parameter_index": 0,
+        "trial_id": "Sjebj"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 19,
+        "trial_job_id": "W90OI",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8296357989311218",
+        "trial_time": "2020-07-12 07:11:29.790000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 1024,
+          "regularizer": -4.0684634613435104,
+          "lr": -3.457483604073743,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/5/0",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/5/1"
+        },
+        "parameter_index": 0,
+        "trial_id": "W90OI"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 6,
+        "trial_job_id": "YEQkJ",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8064431548118591",
+        "trial_time": "2020-07-12 04:23:41.201000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 64,
+          "regularizer": -4.251846473529242,
+          "lr": -3.1090821312927366,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/6/0",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/6/0"
+        },
+        "parameter_index": 0,
+        "trial_id": "YEQkJ"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 26,
+        "trial_job_id": "dbYIx",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8270113468170166",
+        "trial_time": "2020-07-12 13:41:23.028000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 64,
+          "regularizer": -6.4746439671870375,
+          "lr": -3.7894266225039623,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/9/1",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/9/2"
+        },
+        "parameter_index": 0,
+        "trial_id": "dbYIx"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 29,
+        "trial_job_id": "u05yw",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8317578434944153",
+        "trial_time": "2020-07-12 11:09:33.251000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 2048,
+          "regularizer": -6.124707354589991,
+          "lr": -2.162219327338326,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/8/1",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/8/2"
+        },
+        "parameter_index": 0,
+        "trial_id": "u05yw"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 3,
+        "trial_job_id": "qc07z",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8236645460128784",
+        "trial_time": "2020-07-12 00:43:32.653000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 1024,
+          "regularizer": -6.105540140806434,
+          "lr": -3.0524211908699854,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/3/0",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/3/0"
+        },
+        "parameter_index": 0,
+        "trial_id": "qc07z"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 24,
+        "trial_job_id": "SzMCi",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8250992298126221",
+        "trial_time": "2020-07-12 10:42:41.075000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 512,
+          "regularizer": -7.025747448521613,
+          "lr": -2.376525401920416,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/4/1",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/4/2"
+        },
+        "parameter_index": 0,
+        "trial_id": "SzMCi"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 18,
+        "trial_job_id": "m8utF",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8235295414924622",
+        "trial_time": "2020-07-12 07:18:05.270000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 512,
+          "regularizer": -7.025747448521613,
+          "lr": -2.376525401920416,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/4/0",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/4/1"
+        },
+        "parameter_index": 0,
+        "trial_id": "m8utF"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 27,
+        "trial_job_id": "jfcBu",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8288684487342834",
+        "trial_time": "2020-07-12 11:32:06.952000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 256,
+          "regularizer": -7.8257474485216125,
+          "lr": -2,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/2/1",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/2/2"
+        },
+        "parameter_index": 0,
+        "trial_id": "jfcBu"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 13,
+        "trial_job_id": "rbqMa",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8024240136146545",
+        "trial_time": "2020-07-12 06:47:16.810000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 128,
+          "regularizer": -7.829256341027541,
+          "lr": -2.0369423865920258,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/0/0",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/0/1"
+        },
+        "parameter_index": 0,
+        "trial_id": "rbqMa"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 12,
+        "trial_job_id": "wGuiG",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8317428231239319",
+        "trial_time": "2020-07-12 05:28:42.735000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 2048,
+          "regularizer": -6.124707354589991,
+          "lr": -2.162219327338326,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/5/0",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/8/1"
+        },
+        "parameter_index": 0,
+        "trial_id": "wGuiG"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 0,
+        "trial_job_id": "aUkIi",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8141390085220337",
+        "trial_time": "2020-07-12 01:51:05.547000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 128,
+          "regularizer": -7.829256341027541,
+          "lr": -2.0369423865920258,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/0/0",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/0/0"
+        },
+        "parameter_index": 0,
+        "trial_id": "aUkIi"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 15,
+        "trial_job_id": "UDDLs",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8170009255409241",
+        "trial_time": "2020-07-12 06:28:39.296000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 1024,
+          "regularizer": -6.096558113379205,
+          "lr": -3.759356465957956,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/7/0",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/7/1"
+        },
+        "parameter_index": 0,
+        "trial_id": "UDDLs"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 2,
+        "trial_job_id": "U3rmH",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7950130701065063",
+        "trial_time": "2020-07-12 04:07:55.186000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 64,
+          "regularizer": -4.552407589517697,
+          "lr": -2.804022477544338,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/2/0",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/2/0"
+        },
+        "parameter_index": 0,
+        "trial_id": "U3rmH"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 25,
+        "trial_job_id": "uA4iD",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8244118690490723",
+        "trial_time": "2020-07-12 10:44:15.292000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 1024,
+          "regularizer": -6.105540140806434,
+          "lr": -3.0524211908699854,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/3/1",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/3/2"
+        },
+        "parameter_index": 0,
+        "trial_id": "uA4iD"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 23,
+        "trial_job_id": "N4b0l",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8198528289794922",
+        "trial_time": "2020-07-12 10:26:55.120000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 1024,
+          "regularizer": -6.096558113379205,
+          "lr": -3.759356465957956,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/7/1",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/7/2"
+        },
+        "parameter_index": 0,
+        "trial_id": "N4b0l"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 17,
+        "trial_job_id": "bH1bS",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8262789845466614",
+        "trial_time": "2020-07-12 10:03:08.736000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 64,
+          "regularizer": -6.4746439671870375,
+          "lr": -3.7894266225039623,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/9/0",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/9/1"
+        },
+        "parameter_index": 0,
+        "trial_id": "bH1bS"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 14,
+        "trial_job_id": "s3tTL",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8164885640144348",
+        "trial_time": "2020-07-12 06:56:03.237000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 128,
+          "regularizer": -6.323032900900301,
+          "lr": -3.5084332605967097,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/1/0",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/1/1"
+        },
+        "parameter_index": 0,
+        "trial_id": "s3tTL"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 8,
+        "trial_job_id": "Jc7Bv",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7764344215393066",
+        "trial_time": "2020-07-12 02:46:38.001000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 256,
+          "regularizer": -4.823957837294073,
+          "lr": -2.1255911742460905,
+          "load_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/8/0",
+          "save_checkpoint_dir": "/home/xbk5244/nni/experiments/ZQFbgB2e/checkpoint/8/0"
+        },
+        "parameter_index": 0,
+        "trial_id": "Jc7Bv"
+      }
+    ],
+    "method": "PBTTuner",
+    "duration": 47994295
+  },
+  "F9dMoXI9": {
+    "trials": [
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "2_0_29",
+        "trial_job_id": "RHRrH",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8251941800117493",
+        "trial_time": "2020-07-10 00:30:55.018000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 1024,
+          "regularizer": -4.077395347374397,
+          "lr": -2.875269672422952,
+          "TRIAL_BUDGET": 6
+        },
+        "trial_id": "RHRrH"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_13",
+        "trial_job_id": "AOX8J",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8175632953643799",
+        "trial_time": "2020-07-09 19:57:26.241000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 1024,
+          "regularizer": -6.977114279456638,
+          "lr": -2.8624396263107865,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "AOX8J"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_14",
+        "trial_job_id": "DPdGN",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8227297067642212",
+        "trial_time": "2020-07-09 20:34:59.429000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 512,
+          "regularizer": -7.805197067077726,
+          "lr": -3.3726484700583272,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "DPdGN"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_15",
+        "trial_job_id": "UEVdC",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7720953822135925",
+        "trial_time": "2020-07-09 22:51:11.467000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 64,
+          "regularizer": -4.50202885833099,
+          "lr": -2.4863534874582798,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "UEVdC"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_2",
+        "trial_job_id": "Lc09N",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7963302731513977",
+        "trial_time": "2020-07-09 19:59:22.846000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 64,
+          "regularizer": -4.453634944063854,
+          "lr": -2.8697043907762216,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "Lc09N"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_11",
+        "trial_job_id": "VqSWS",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7795587778091431",
+        "trial_time": "2020-07-09 21:37:03.900000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 64,
+          "regularizer": -5.603618271652226,
+          "lr": -2.175798972259104,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "VqSWS"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_19",
+        "trial_job_id": "siD8f",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8173758387565613",
+        "trial_time": "2020-07-09 21:12:56.584000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 2048,
+          "regularizer": -6.970786047927934,
+          "lr": -3.7765015946828173,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "siD8f"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_7",
+        "trial_job_id": "eKutP",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8251017332077026",
+        "trial_time": "2020-07-09 18:35:37.126000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 256,
+          "regularizer": -5.622246555576313,
+          "lr": -3.7414185031830995,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "eKutP"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_1",
+        "trial_job_id": "K57NK",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8292708396911621",
+        "trial_time": "2020-07-09 17:21:11.548000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 2048,
+          "regularizer": -6.900724949887094,
+          "lr": -3.6595369096294452,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "K57NK"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_23",
+        "trial_job_id": "yEnG4",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8299956917762756",
+        "trial_time": "2020-07-10 00:42:33.174000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 64,
+          "regularizer": -7.283047238992179,
+          "lr": -2.607466238155693,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "yEnG4"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "2_0_27",
+        "trial_job_id": "w0JwH",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.806175708770752",
+        "trial_time": "2020-07-09 23:53:45.334000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 1024,
+          "regularizer": -4.90909477720154,
+          "lr": -2.121931560842806,
+          "TRIAL_BUDGET": 6
+        },
+        "trial_id": "w0JwH"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_12",
+        "trial_job_id": "H2oby",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8216474652290344",
+        "trial_time": "2020-07-09 19:42:09.442000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 1024,
+          "regularizer": -5.5412475093057765,
+          "lr": -3.671043704485421,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "H2oby"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_9",
+        "trial_job_id": "k0PnB",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8269663453102112",
+        "trial_time": "2020-07-09 18:45:57.391000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 2048,
+          "regularizer": -7.373570215353665,
+          "lr": -3.072829251687566,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "k0PnB"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_0",
+        "trial_job_id": "UReiz",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8252542018890381",
+        "trial_time": "2020-07-09 17:20:59.430000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 2048,
+          "regularizer": -6.862234752850152,
+          "lr": -3.5539443446307244,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "UReiz"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_25",
+        "trial_job_id": "ih3U9",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7814908623695374",
+        "trial_time": "2020-07-10 00:17:47.031000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 128,
+          "regularizer": -4.720410341423717,
+          "lr": -2.283189152336246,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "ih3U9"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_21",
+        "trial_job_id": "oeO23",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8216174840927124",
+        "trial_time": "2020-07-09 21:49:26.973000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 512,
+          "regularizer": -6.261989444060157,
+          "lr": -2.122932516744717,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "oeO23"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_4",
+        "trial_job_id": "nDnxD",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8282285928726196",
+        "trial_time": "2020-07-09 18:07:09.163000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 256,
+          "regularizer": -4.364380014286558,
+          "lr": -3.2921113140616383,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "nDnxD"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_5",
+        "trial_job_id": "gxATN",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7767269015312195",
+        "trial_time": "2020-07-09 20:21:33.629000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 64,
+          "regularizer": -4.893902456733606,
+          "lr": -2.4518574048996857,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "gxATN"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_26",
+        "trial_job_id": "E42E7",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8237795233726501",
+        "trial_time": "2020-07-09 23:35:38.241000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 2048,
+          "regularizer": -7.426155799196455,
+          "lr": -3.1756972621079655,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "E42E7"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "2_0_28",
+        "trial_job_id": "l62HQ",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.827666163444519",
+        "trial_time": "2020-07-10 03:12:59.058000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 64,
+          "regularizer": -5.395628902284194,
+          "lr": -3.823846364548714,
+          "TRIAL_BUDGET": 6
+        },
+        "trial_id": "l62HQ"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_3",
+        "trial_job_id": "l7dQ6",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8316803574562073",
+        "trial_time": "2020-07-09 17:36:29.623000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 512,
+          "regularizer": -5.075374578839136,
+          "lr": -3.252157692996919,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "l7dQ6"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_24",
+        "trial_job_id": "chQaK",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8065780997276306",
+        "trial_time": "2020-07-09 23:20:36.590000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 128,
+          "regularizer": -5.245169563642527,
+          "lr": -2.6613072296231017,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "chQaK"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_8",
+        "trial_job_id": "bjEGu",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8223472833633423",
+        "trial_time": "2020-07-09 18:38:13.481000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 512,
+          "regularizer": -7.879931468195602,
+          "lr": -3.836086148551687,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "bjEGu"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_17",
+        "trial_job_id": "NYcrg",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8222923278808594",
+        "trial_time": "2020-07-09 21:01:22.669000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 512,
+          "regularizer": -4.441584454785128,
+          "lr": -2.7289554284465254,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "NYcrg"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_18",
+        "trial_job_id": "FRRgO",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8181056976318359",
+        "trial_time": "2020-07-09 21:23:35.651000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 256,
+          "regularizer": -6.228060474755206,
+          "lr": -3.167201360671793,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "FRRgO"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_10",
+        "trial_job_id": "f4pvi",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8053233623504639",
+        "trial_time": "2020-07-09 19:23:43.864000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 256,
+          "regularizer": -5.413671317194925,
+          "lr": -2.1239399268973553,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "f4pvi"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_16",
+        "trial_job_id": "QHZoi",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8292958736419678",
+        "trial_time": "2020-07-09 20:37:22.893000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 1024,
+          "regularizer": -4.50075487026821,
+          "lr": -3.7510532124010423,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "QHZoi"
+      },
+      {
+        "metric_id": "ME000114",
+        "parameter_id": "3_0_6",
+        "trial_job_id": "lGo2r",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8273287415504456",
+        "trial_time": "2020-07-09 17:47:24.798000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 2048,
+          "regularizer": -5.0949595515845445,
+          "lr": -3.0153856130295322,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "lGo2r"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_20",
+        "trial_job_id": "BnjQG",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8269688487052917",
+        "trial_time": "2020-07-10 00:06:13.356000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 64,
+          "regularizer": -7.028039317980891,
+          "lr": -3.3853943098567383,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "BnjQG"
+      },
+      {
+        "metric_id": "ME000115",
+        "parameter_id": "3_0_22",
+        "trial_job_id": "gl3lk",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8236744999885559",
+        "trial_time": "2020-07-09 21:55:19.097000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 1024,
+          "regularizer": -6.976118574658149,
+          "lr": -3.130763724025395,
+          "TRIAL_BUDGET": 2
+        },
+        "trial_id": "gl3lk"
+      }
+    ],
+    "method": "Hyperband",
+    "duration": 36179871
+  },
+  "aw3gLZDK": {
+    "trials": [
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 19,
+        "trial_job_id": "Ilm47",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8329426050186157",
+        "trial_time": "2020-07-07 07:12:30.067000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 128,
+          "regularizer": -6.6526076253060005,
+          "lr": -2.590401580127857
+        },
+        "parameter_index": 0,
+        "trial_id": "Ilm47"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 25,
+        "trial_job_id": "Uviah",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8005743622779846",
+        "trial_time": "2020-07-07 08:28:27.089000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 512,
+          "regularizer": -5.206398736522506,
+          "lr": -2.005806377852651
+        },
+        "parameter_index": 0,
+        "trial_id": "Uviah"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 15,
+        "trial_job_id": "SS4nE",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8262115120887756",
+        "trial_time": "2020-07-07 05:57:12.032000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 64,
+          "regularizer": -7.7263465487183876,
+          "lr": -2.8554495821964148
+        },
+        "parameter_index": 0,
+        "trial_id": "SS4nE"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 5,
+        "trial_job_id": "Woffn",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8273362517356873",
+        "trial_time": "2020-07-06 22:22:45.298000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 2048,
+          "regularizer": -4.151451628138515,
+          "lr": -2.916797074122117
+        },
+        "parameter_index": 0,
+        "trial_id": "Woffn"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 29,
+        "trial_job_id": "EVqoR",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.779701292514801",
+        "trial_time": "2020-07-07 09:58:17.369000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 256,
+          "regularizer": -4.779826815223407,
+          "lr": -2.1766639838982202
+        },
+        "parameter_index": 0,
+        "trial_id": "EVqoR"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 16,
+        "trial_job_id": "n5Z9b",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.833502471446991",
+        "trial_time": "2020-07-07 05:30:43.267000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 256,
+          "regularizer": -4.924126213966927,
+          "lr": -3.2653460766373157
+        },
+        "parameter_index": 0,
+        "trial_id": "n5Z9b"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 28,
+        "trial_job_id": "ojA3i",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7870322465896606",
+        "trial_time": "2020-07-07 08:58:43.899000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 512,
+          "regularizer": -4.669506340875525,
+          "lr": -2.1243461374112043
+        },
+        "parameter_index": 0,
+        "trial_id": "ojA3i"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 22,
+        "trial_job_id": "IOZm6",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7521445751190186",
+        "trial_time": "2020-07-07 07:48:46.332000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 512,
+          "regularizer": -4.004884627168167,
+          "lr": -2.0274265990421765
+        },
+        "parameter_index": 0,
+        "trial_id": "IOZm6"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 24,
+        "trial_job_id": "oFk9q",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8081603050231934",
+        "trial_time": "2020-07-07 08:14:46.792000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 512,
+          "regularizer": -5.350700454089294,
+          "lr": -2.0511244912829962
+        },
+        "parameter_index": 0,
+        "trial_id": "oFk9q"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 1,
+        "trial_job_id": "r9Gao",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8303606510162354",
+        "trial_time": "2020-07-07 01:03:17.640000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 64,
+          "regularizer": -6.441745111751662,
+          "lr": -2.683983904223571
+        },
+        "parameter_index": 0,
+        "trial_id": "r9Gao"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 13,
+        "trial_job_id": "xqRmj",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8283385634422302",
+        "trial_time": "2020-07-07 04:41:32.844000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 64,
+          "regularizer": -7.577796002060636,
+          "lr": -3.3058962662714944
+        },
+        "parameter_index": 0,
+        "trial_id": "xqRmj"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 20,
+        "trial_job_id": "lvvVe",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8245918154716492",
+        "trial_time": "2020-07-07 07:37:12.157000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 128,
+          "regularizer": -5.806584196360392,
+          "lr": -2.549738697673406
+        },
+        "parameter_index": 0,
+        "trial_id": "lvvVe"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 21,
+        "trial_job_id": "T3zwL",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8252692222595215",
+        "trial_time": "2020-07-07 07:22:32.451000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 2048,
+          "regularizer": -5.184436058840607,
+          "lr": -2.267443329093782
+        },
+        "parameter_index": 0,
+        "trial_id": "T3zwL"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 26,
+        "trial_job_id": "V4rTB",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7591730952262878",
+        "trial_time": "2020-07-07 08:41:39.361000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 512,
+          "regularizer": -4.478402907049991,
+          "lr": -2.0387142159347498
+        },
+        "parameter_index": 0,
+        "trial_id": "V4rTB"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 27,
+        "trial_job_id": "LI5N4",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7824282050132751",
+        "trial_time": "2020-07-07 08:54:47.527000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 512,
+          "regularizer": -4.5286446762337835,
+          "lr": -2.1365586378422314
+        },
+        "parameter_index": 0,
+        "trial_id": "LI5N4"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 2,
+        "trial_job_id": "rJTgS",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8290109038352966",
+        "trial_time": "2020-07-06 22:12:35.491000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 256,
+          "regularizer": -6.445641945634971,
+          "lr": -3.1440845118882543
+        },
+        "parameter_index": 0,
+        "trial_id": "rJTgS"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 3,
+        "trial_job_id": "TkkpM",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8169384598731995",
+        "trial_time": "2020-07-06 22:10:29.224000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 512,
+          "regularizer": -6.4312879241551375,
+          "lr": -2.7807065577156997
+        },
+        "parameter_index": 0,
+        "trial_id": "TkkpM"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 4,
+        "trial_job_id": "Rp3Zm",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7535792589187622",
+        "trial_time": "2020-07-07 01:02:54.221000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 64,
+          "regularizer": -4.335428360139497,
+          "lr": -2.283319376107003
+        },
+        "parameter_index": 0,
+        "trial_id": "Rp3Zm"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 17,
+        "trial_job_id": "q30kb",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.825821578502655",
+        "trial_time": "2020-07-07 05:42:11.227000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 1024,
+          "regularizer": -7.612835157955756,
+          "lr": -3.929221476218837
+        },
+        "parameter_index": 0,
+        "trial_id": "q30kb"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 8,
+        "trial_job_id": "PWoPo",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8102323412895203",
+        "trial_time": "2020-07-07 01:19:04.156000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 1024,
+          "regularizer": -4.63083438129183,
+          "lr": -2.5420851605603563
+        },
+        "parameter_index": 0,
+        "trial_id": "PWoPo"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 18,
+        "trial_job_id": "dK0np",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8238170146942139",
+        "trial_time": "2020-07-07 08:31:43.189000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 64,
+          "regularizer": -4.324979573455921,
+          "lr": -3.3763515909633224
+        },
+        "parameter_index": 0,
+        "trial_id": "dK0np"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 14,
+        "trial_job_id": "jfRf6",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8289084434509277",
+        "trial_time": "2020-07-07 03:03:54.393000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 1024,
+          "regularizer": -7.128815507223055,
+          "lr": -3.3983867234943324
+        },
+        "parameter_index": 0,
+        "trial_id": "jfRf6"
+      },
+      {
+        "metric_id": "ME000107",
+        "parameter_id": 0,
+        "trial_job_id": "HOtpZ",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.746980607509613",
+        "trial_time": "2020-07-06 21:45:02.685000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 64,
+          "regularizer": -4.4560291934988,
+          "lr": -2.1900871782899127
+        },
+        "parameter_index": 0,
+        "trial_id": "HOtpZ"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 7,
+        "trial_job_id": "sQaf8",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8236545324325562",
+        "trial_time": "2020-07-07 02:48:05.120000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 64,
+          "regularizer": -6.542311609835519,
+          "lr": -2.389475637478755
+        },
+        "parameter_index": 0,
+        "trial_id": "sQaf8"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 9,
+        "trial_job_id": "GuYmV",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8148788809776306",
+        "trial_time": "2020-07-07 01:19:42.583000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 1024,
+          "regularizer": -6.3920189024035405,
+          "lr": -3.8285323359171826
+        },
+        "parameter_index": 0,
+        "trial_id": "GuYmV"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 10,
+        "trial_job_id": "H7WVD",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8258490562438965",
+        "trial_time": "2020-07-07 01:29:38.329000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 2048,
+          "regularizer": -7.191195676161345,
+          "lr": -3.0104201633336114
+        },
+        "parameter_index": 0,
+        "trial_id": "H7WVD"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 12,
+        "trial_job_id": "IiGk7",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.825541615486145",
+        "trial_time": "2020-07-07 01:45:47.054000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 1024,
+          "regularizer": -7.872518604099886,
+          "lr": -3.7144574460285025
+        },
+        "parameter_index": 0,
+        "trial_id": "IiGk7"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 23,
+        "trial_job_id": "P2M9h",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7573009729385376",
+        "trial_time": "2020-07-07 08:02:48.199000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 512,
+          "regularizer": -4.042304069808679,
+          "lr": -2.076799958009108
+        },
+        "parameter_index": 0,
+        "trial_id": "P2M9h"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 6,
+        "trial_job_id": "DToRG",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8284485340118408",
+        "trial_time": "2020-07-06 23:52:26.841000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 128,
+          "regularizer": -6.396892048616786,
+          "lr": -2.3464797403656057
+        },
+        "parameter_index": 0,
+        "trial_id": "DToRG"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 11,
+        "trial_job_id": "ld1oV",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8198528289794922",
+        "trial_time": "2020-07-07 05:26:44.574000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 64,
+          "regularizer": -6.093924926152834,
+          "lr": -2.541725340178173
+        },
+        "parameter_index": 0,
+        "trial_id": "ld1oV"
+      }
+    ],
+    "method": "TPE",
+    "duration": 56032075
+  },
+  "VCtmOpgz": {
+    "trials": [
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 25,
+        "trial_job_id": "ELrw8",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8266013860702515",
+        "trial_time": "2020-07-07 18:12:03.506000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 1024,
+          "regularizer": -5.71865670891548,
+          "lr": -3.163262161063709
+        },
+        "parameter_index": 0,
+        "trial_id": "ELrw8"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 29,
+        "trial_job_id": "OJOdy",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.833669900894165",
+        "trial_time": "2020-07-07 20:33:05.721000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 128,
+          "regularizer": -5.553820983136664,
+          "lr": -2.962510359102461
+        },
+        "parameter_index": 0,
+        "trial_id": "OJOdy"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 20,
+        "trial_job_id": "gxOuT",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8345422744750977",
+        "trial_time": "2020-07-07 17:29:02.160000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 512,
+          "regularizer": -5.217821842187268,
+          "lr": -2.9263116486803646
+        },
+        "parameter_index": 0,
+        "trial_id": "gxOuT"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 16,
+        "trial_job_id": "VmBIa",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8301106691360474",
+        "trial_time": "2020-07-07 16:42:17.730000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 1024,
+          "regularizer": -6.001491209060989,
+          "lr": -2.1774233057337136
+        },
+        "parameter_index": 0,
+        "trial_id": "VmBIa"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 11,
+        "trial_job_id": "jWHnD",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8168534636497498",
+        "trial_time": "2020-07-07 16:21:23.712000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 256,
+          "regularizer": -4.450491507532769,
+          "lr": -3.4589029650926157
+        },
+        "parameter_index": 0,
+        "trial_id": "jWHnD"
+      },
+      {
+        "metric_id": "ME000106",
+        "parameter_id": 2,
+        "trial_job_id": "JlNBl",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.82685387134552",
+        "trial_time": "2020-07-07 14:49:34.742000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 256,
+          "regularizer": -5.387664019839638,
+          "lr": -3.5301567778258764
+        },
+        "parameter_index": 0,
+        "trial_id": "JlNBl"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 28,
+        "trial_job_id": "H75gz",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.829885721206665",
+        "trial_time": "2020-07-07 18:50:43.081000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 2048,
+          "regularizer": -5.162484518105751,
+          "lr": -2.817398485191377
+        },
+        "parameter_index": 0,
+        "trial_id": "H75gz"
+      },
+      {
+        "metric_id": "ME000107",
+        "parameter_id": 23,
+        "trial_job_id": "ZDnzz",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.83063805103302",
+        "trial_time": "2020-07-07 18:11:07.376000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 512,
+          "regularizer": -5.792510237414455,
+          "lr": -2.823395114649475
+        },
+        "parameter_index": 0,
+        "trial_id": "ZDnzz"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 17,
+        "trial_job_id": "mWx1u",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8201727867126465",
+        "trial_time": "2020-07-07 17:54:20.287000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 256,
+          "regularizer": -4.405541936346084,
+          "lr": -2.9184687931188917
+        },
+        "parameter_index": 0,
+        "trial_id": "mWx1u"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 1,
+        "trial_job_id": "cUk8o",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8039186596870422",
+        "trial_time": "2020-07-07 15:11:56.523000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 128,
+          "regularizer": -5.57723845388381,
+          "lr": -2.229261728139596
+        },
+        "parameter_index": 0,
+        "trial_id": "cUk8o"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 6,
+        "trial_job_id": "zRXAq",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8285210132598877",
+        "trial_time": "2020-07-07 15:15:47.813000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 512,
+          "regularizer": -7.001635057700738,
+          "lr": -2.9812902155889542
+        },
+        "parameter_index": 0,
+        "trial_id": "zRXAq"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 13,
+        "trial_job_id": "vyq8v",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8320302963256836",
+        "trial_time": "2020-07-07 16:16:14.224000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 1024,
+          "regularizer": -5.76295208932404,
+          "lr": -2.5869649452454953
+        },
+        "parameter_index": 0,
+        "trial_id": "vyq8v"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 15,
+        "trial_job_id": "sWTp2",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8305155634880066",
+        "trial_time": "2020-07-07 16:48:56.678000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 512,
+          "regularizer": -5.697024624768725,
+          "lr": -2.922097555864954
+        },
+        "parameter_index": 0,
+        "trial_id": "sWTp2"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 14,
+        "trial_job_id": "CGFTD",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8235770463943481",
+        "trial_time": "2020-07-07 16:43:06.580000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 512,
+          "regularizer": -4.862413974109129,
+          "lr": -2.606175160863919
+        },
+        "parameter_index": 0,
+        "trial_id": "CGFTD"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 27,
+        "trial_job_id": "gHhrd",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8308280110359192",
+        "trial_time": "2020-07-07 18:38:54.212000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 1024,
+          "regularizer": -5.360376997868664,
+          "lr": -2.610244165470186
+        },
+        "parameter_index": 0,
+        "trial_id": "gHhrd"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 24,
+        "trial_job_id": "DaXlB",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8016291856765747",
+        "trial_time": "2020-07-07 19:14:32.322000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 128,
+          "regularizer": -4.80193727897665,
+          "lr": -2.748481956408772
+        },
+        "parameter_index": 0,
+        "trial_id": "DaXlB"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 21,
+        "trial_job_id": "uqkYi",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8275911808013916",
+        "trial_time": "2020-07-07 17:18:06.007000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 1024,
+          "regularizer": -5.983390081472191,
+          "lr": -2.9276639975008107
+        },
+        "parameter_index": 0,
+        "trial_id": "uqkYi"
+      },
+      {
+        "metric_id": "ME000107",
+        "parameter_id": 0,
+        "trial_job_id": "FwQzb",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.822114884853363",
+        "trial_time": "2020-07-07 16:25:32.444000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 64,
+          "regularizer": -7.8947120653710225,
+          "lr": -2.402889416846638
+        },
+        "parameter_index": 0,
+        "trial_id": "FwQzb"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 19,
+        "trial_job_id": "SnlYo",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8172733783721924",
+        "trial_time": "2020-07-07 17:00:00.799000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 2048,
+          "regularizer": -4.390700861862061,
+          "lr": -3.258837239977295
+        },
+        "parameter_index": 0,
+        "trial_id": "SnlYo"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 3,
+        "trial_job_id": "KyeEr",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8320527672767639",
+        "trial_time": "2020-07-07 14:01:39.159000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 512,
+          "regularizer": -5.4957148423157545,
+          "lr": -2.6421922898256565
+        },
+        "parameter_index": 0,
+        "trial_id": "KyeEr"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 22,
+        "trial_job_id": "bdKPn",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8281511068344116",
+        "trial_time": "2020-07-07 17:45:30.729000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 512,
+          "regularizer": -4.719325257881379,
+          "lr": -3.0318618890092233
+        },
+        "parameter_index": 0,
+        "trial_id": "bdKPn"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 12,
+        "trial_job_id": "BtQc6",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8320452570915222",
+        "trial_time": "2020-07-07 16:00:12.935000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 1024,
+          "regularizer": -5.399061002464519,
+          "lr": -2.5185981078457234
+        },
+        "parameter_index": 0,
+        "trial_id": "BtQc6"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 10,
+        "trial_job_id": "Zzuw4",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8273562788963318",
+        "trial_time": "2020-07-07 15:44:28.849000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 1024,
+          "regularizer": -6.603754186406743,
+          "lr": -3.3109636560349283
+        },
+        "parameter_index": 0,
+        "trial_id": "Zzuw4"
+      },
+      {
+        "metric_id": "ME000107",
+        "parameter_id": 8,
+        "trial_job_id": "BWGSP",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.828823447227478",
+        "trial_time": "2020-07-07 15:28:05.139000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 1024,
+          "regularizer": -6.445346754618463,
+          "lr": -3.0508553337452327
+        },
+        "parameter_index": 0,
+        "trial_id": "BWGSP"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 7,
+        "trial_job_id": "XugYB",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8162086009979248",
+        "trial_time": "2020-07-07 15:34:57.867000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 512,
+          "regularizer": -5.788680134235969,
+          "lr": -2.8748732520799956
+        },
+        "parameter_index": 0,
+        "trial_id": "XugYB"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 26,
+        "trial_job_id": "lDh3h",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8317028284072876",
+        "trial_time": "2020-07-07 18:54:31.685000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 512,
+          "regularizer": -5.646555978413984,
+          "lr": -2.917476007838943
+        },
+        "parameter_index": 0,
+        "trial_id": "lDh3h"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 9,
+        "trial_job_id": "mLviB",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8237645030021667",
+        "trial_time": "2020-07-07 19:16:33.606000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 64,
+          "regularizer": -5.172195581688589,
+          "lr": -3.02003514409596
+        },
+        "parameter_index": 0,
+        "trial_id": "mLviB"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 5,
+        "trial_job_id": "iNKqk",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8333724737167358",
+        "trial_time": "2020-07-07 15:09:46.348000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 512,
+          "regularizer": -5.158507217797277,
+          "lr": -2.9350892811740525
+        },
+        "parameter_index": 0,
+        "trial_id": "iNKqk"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 18,
+        "trial_job_id": "EQxbZ",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8275637030601501",
+        "trial_time": "2020-07-07 17:00:40.164000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 1024,
+          "regularizer": -6.41170186206874,
+          "lr": -2.9020608467823
+        },
+        "parameter_index": 0,
+        "trial_id": "EQxbZ"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 4,
+        "trial_job_id": "ivEcJ",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8187630772590637",
+        "trial_time": "2020-07-07 14:26:51.979000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 512,
+          "regularizer": -5.019142870063756,
+          "lr": -3.4169417897519225
+        },
+        "parameter_index": 0,
+        "trial_id": "ivEcJ"
+      }
+    ],
+    "method": "Anneal",
+    "duration": 25042928
+  },
+  "Rot5r6UM": {
+    "trials": [
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 17,
+        "trial_job_id": "viMRC",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8279211521148682",
+        "trial_time": "2020-07-11 20:50:47.762000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 1024,
+          "regularizer": -6.926589932655127,
+          "lr": -2.91570901679021
+        },
+        "parameter_index": 0,
+        "trial_id": "viMRC"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 8,
+        "trial_job_id": "nXtQf",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8267363905906677",
+        "trial_time": "2020-07-11 18:53:36.063000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 128,
+          "regularizer": -7.468056479806288,
+          "lr": -3.1047453746076057
+        },
+        "parameter_index": 0,
+        "trial_id": "nXtQf"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 15,
+        "trial_job_id": "CZaOw",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.821322500705719",
+        "trial_time": "2020-07-11 20:24:47.403000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 512,
+          "regularizer": -6.119094072989557,
+          "lr": -2.038057711619534
+        },
+        "parameter_index": 0,
+        "trial_id": "CZaOw"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 16,
+        "trial_job_id": "qDNtR",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8268863558769226",
+        "trial_time": "2020-07-11 20:34:57.770000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 2048,
+          "regularizer": -7.752191135443184,
+          "lr": -2.295124634949414
+        },
+        "parameter_index": 0,
+        "trial_id": "qDNtR"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 28,
+        "trial_job_id": "Mu83B",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8280510902404785",
+        "trial_time": "2020-07-11 22:53:32.774000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 1024,
+          "regularizer": -7.815020807607905,
+          "lr": -3.376599200803125
+        },
+        "parameter_index": 0,
+        "trial_id": "Mu83B"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 25,
+        "trial_job_id": "x8Y9c",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8273187875747681",
+        "trial_time": "2020-07-11 22:37:32.695000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 512,
+          "regularizer": -6.593163442977572,
+          "lr": -2.1481112773954543
+        },
+        "parameter_index": 0,
+        "trial_id": "x8Y9c"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 22,
+        "trial_job_id": "QBlWT",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8256016373634338",
+        "trial_time": "2020-07-11 22:22:41.647000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 1024,
+          "regularizer": -7.524594509190203,
+          "lr": -2.7202208119923474
+        },
+        "parameter_index": 0,
+        "trial_id": "QBlWT"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 4,
+        "trial_job_id": "HZNOO",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8284035325050354",
+        "trial_time": "2020-07-11 17:01:53.552000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 1024,
+          "regularizer": -7.57402684346793,
+          "lr": -2.3616267971344587
+        },
+        "parameter_index": 0,
+        "trial_id": "HZNOO"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 14,
+        "trial_job_id": "jsj8o",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8093975186347961",
+        "trial_time": "2020-07-11 22:11:24.848000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 64,
+          "regularizer": -6.3751990839236505,
+          "lr": -3.5496235800185336
+        },
+        "parameter_index": 0,
+        "trial_id": "jsj8o"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 0,
+        "trial_job_id": "QZqBl",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8270038366317749",
+        "trial_time": "2020-07-11 17:50:04.126000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 128,
+          "regularizer": -5.8673827944068115,
+          "lr": -3.629015126477559
+        },
+        "parameter_index": 0,
+        "trial_id": "QZqBl"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 5,
+        "trial_job_id": "LmOEk",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8278711438179016",
+        "trial_time": "2020-07-11 17:01:34.703000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 2048,
+          "regularizer": -6.446986711180104,
+          "lr": -3.528884396066271
+        },
+        "parameter_index": 0,
+        "trial_id": "LmOEk"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 7,
+        "trial_job_id": "kwOwx",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8322852253913879",
+        "trial_time": "2020-07-11 19:59:06.748000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 64,
+          "regularizer": -7.023049960661057,
+          "lr": -2.6428270403010523
+        },
+        "parameter_index": 0,
+        "trial_id": "kwOwx"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 13,
+        "trial_job_id": "nA28y",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8298107385635376",
+        "trial_time": "2020-07-11 20:38:20.749000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 128,
+          "regularizer": -7.724674079048021,
+          "lr": -3.54365946848211
+        },
+        "parameter_index": 0,
+        "trial_id": "nA28y"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 9,
+        "trial_job_id": "E3LO9",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8271538019180298",
+        "trial_time": "2020-07-11 18:36:04.428000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 256,
+          "regularizer": -6.617500526192953,
+          "lr": -2.5093622836649376
+        },
+        "parameter_index": 0,
+        "trial_id": "E3LO9"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 12,
+        "trial_job_id": "qXl9v",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8258465528488159",
+        "trial_time": "2020-07-11 19:24:09.276000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 128,
+          "batch": 1024,
+          "regularizer": -6.045555286764484,
+          "lr": -3.0922190172564363
+        },
+        "parameter_index": 0,
+        "trial_id": "qXl9v"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 27,
+        "trial_job_id": "GLNvh",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8295732736587524",
+        "trial_time": "2020-07-11 22:43:06.851000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 1024,
+          "regularizer": -5.827345163064043,
+          "lr": -3.069631137725872
+        },
+        "parameter_index": 0,
+        "trial_id": "GLNvh"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 19,
+        "trial_job_id": "vHAG5",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.827326238155365",
+        "trial_time": "2020-07-11 21:16:56.497000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 512,
+          "regularizer": -7.603253610613051,
+          "lr": -2.535640435460143
+        },
+        "parameter_index": 0,
+        "trial_id": "vHAG5"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 26,
+        "trial_job_id": "xS1qZ",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8279336094856262",
+        "trial_time": "2020-07-11 22:48:38.547000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 512,
+          "regularizer": -4.633498467252809,
+          "lr": -3.838288614051212
+        },
+        "parameter_index": 0,
+        "trial_id": "xS1qZ"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 20,
+        "trial_job_id": "L6mDs",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8279336094856262",
+        "trial_time": "2020-07-11 22:09:30.083000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 256,
+          "regularizer": -7.746843439744069,
+          "lr": -2.007333527131194
+        },
+        "parameter_index": 0,
+        "trial_id": "L6mDs"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 23,
+        "trial_job_id": "Eu6n0",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8267688751220703",
+        "trial_time": "2020-07-11 23:47:56.871000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 128,
+          "regularizer": -6.978137775872128,
+          "lr": -2.3716586196686302
+        },
+        "parameter_index": 0,
+        "trial_id": "Eu6n0"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 2,
+        "trial_job_id": "MQpax",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8276937007904053",
+        "trial_time": "2020-07-11 16:45:56.123000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 16,
+          "batch": 512,
+          "regularizer": -6.707049546889698,
+          "lr": -3.905216985331113
+        },
+        "parameter_index": 0,
+        "trial_id": "MQpax"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 24,
+        "trial_job_id": "bJpR7",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8311679363250732",
+        "trial_time": "2020-07-11 22:27:12.882000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 1024,
+          "regularizer": -5.253098868927694,
+          "lr": -2.847022953085859
+        },
+        "parameter_index": 0,
+        "trial_id": "bJpR7"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 18,
+        "trial_job_id": "p3FFz",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7808260321617126",
+        "trial_time": "2020-07-11 22:05:26.177000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 128,
+          "regularizer": -5.111572399862824,
+          "lr": -2.198099132044425
+        },
+        "parameter_index": 0,
+        "trial_id": "p3FFz"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 11,
+        "trial_job_id": "bsovW",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7873121500015259",
+        "trial_time": "2020-07-11 21:43:34.279000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 64,
+          "regularizer": -4.6120104399403825,
+          "lr": -2.6037681300050033
+        },
+        "parameter_index": 0,
+        "trial_id": "bsovW"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 21,
+        "trial_job_id": "AoXtB",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8169234395027161",
+        "trial_time": "2020-07-11 22:08:54.291000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 512,
+          "regularizer": -4.542666698237846,
+          "lr": -3.4132465492487345
+        },
+        "parameter_index": 0,
+        "trial_id": "AoXtB"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 6,
+        "trial_job_id": "eVAsy",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8242019414901733",
+        "trial_time": "2020-07-11 17:28:24.600000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 512,
+          "regularizer": -7.936998281735797,
+          "lr": -3.017340602073313
+        },
+        "parameter_index": 0,
+        "trial_id": "eVAsy"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 1,
+        "trial_job_id": "QFN4x",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.7596479654312134",
+        "trial_time": "2020-07-11 19:08:31.886000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 4,
+          "batch": 64,
+          "regularizer": -4.434785028663553,
+          "lr": -2.2231085933133725
+        },
+        "parameter_index": 0,
+        "trial_id": "QFN4x"
+      },
+      {
+        "metric_id": "ME000108",
+        "parameter_id": 3,
+        "trial_job_id": "Arvmt",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8235020637512207",
+        "trial_time": "2020-07-11 16:51:02.610000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 64,
+          "batch": 512,
+          "regularizer": -6.81058775680814,
+          "lr": -3.183516402575324
+        },
+        "parameter_index": 0,
+        "trial_id": "Arvmt"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 29,
+        "trial_job_id": "ipZBH",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8288984298706055",
+        "trial_time": "2020-07-11 22:54:17.642000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 32,
+          "batch": 2048,
+          "regularizer": -5.58883577845557,
+          "lr": -2.899392957222619
+        },
+        "parameter_index": 0,
+        "trial_id": "ipZBH"
+      },
+      {
+        "metric_id": "ME000109",
+        "parameter_id": 10,
+        "trial_job_id": "KQgUe",
+        "type": "FINAL",
+        "sequence": 0,
+        "value": "0.8276786804199219",
+        "trial_time": "2020-07-11 19:01:13.984000",
+        "parameter_source": "algorithm",
+        "parameters": {
+          "hidden_factors": 8,
+          "batch": 512,
+          "regularizer": -5.946159771937479,
+          "lr": -3.3648492360911955
+        },
+        "parameter_index": 0,
+        "trial_id": "KQgUe"
+      }
+    ],
+    "method": "Random",
+    "duration": 26841957
+  }
+}
